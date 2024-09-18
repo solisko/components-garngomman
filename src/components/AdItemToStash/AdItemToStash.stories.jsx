@@ -1,7 +1,7 @@
 import AdItemToStash from "./AdItemToStash";
 
 export default {
-  title: "COMPONENTS/AdItemToStash",
+  title: "COMPONENTS/AdItemToStash/AdItemToStash",
   component: AdItemToStash,
 };
 
