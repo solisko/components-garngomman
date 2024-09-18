@@ -1,7 +1,7 @@
 import Projekt from "./Projekt";
 
 export default {
-  title: "COMPONENTS/Projekt",
+  title: "COMPONENTS/Projekt/Projekt",
   component: Projekt,
 };
 
