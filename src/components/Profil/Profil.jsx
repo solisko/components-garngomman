@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./Profil.module.css";
 
 const Profil = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h2>Profil</h2>
       <button>Kontoinställningar</button>
       <button>Personinställningar</button>
