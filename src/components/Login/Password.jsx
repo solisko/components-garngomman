@@ -1,13 +1,13 @@
 import React from "react";
 
-const User = () => {
+const Password = () => {
     return(
         <div>
             <form>
-                <input type="text" placeholder="Användarnamn" />
+                <input type="password" placeholder="Lösenord" />
             </form>
         </div>
     )
 }
 
-export default User;
+export default Password;
