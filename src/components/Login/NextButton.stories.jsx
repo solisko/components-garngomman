@@ -1,7 +1,7 @@
 import NextButton from "./NextButton";
 
 export default {
-    title: 'COMPONENTS/NextButton',
+    title: 'COMPONENTS/Login/NextButton',
     component: NextButton,
 }
 
