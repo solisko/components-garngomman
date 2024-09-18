@@ -1,20 +1,8 @@
-# components-garngomman
+# React + Vite
 
-Garngömman är en app för dig som älskar att virka! 
-Här kan du skapa ett användarkonto och spara dina virk-prylar digitalt på ett och samma ställe. 
-Genom detta kan du få tips på olika projekt du kan göra med just dina prylar samt få inspiration från andra.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Komponenterna till vårat skolprojekt "Garngömman". Detta repo innehåller komponenter till våran app.
+Currently, two official plugins are available:
 
-## Installation
-
-Använd git bash eller liknande verktyg
-
-```
-1. git clone https://github.com/solisko/components-garngomman
-2. cd components-garngomman
-```
-
-To be continued...
-
-**2024 &copy; SENFLR**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
