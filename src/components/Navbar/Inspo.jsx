@@ -3,7 +3,8 @@ import styles from "./Navbar.module.css";
 
 const Inspo = () => {
   return (
-    <div>
+    <div className={styles["nav-item"]}>
+      <div className={styles.icon}></div>
       <div>Inspo</div>
     </div>
   );

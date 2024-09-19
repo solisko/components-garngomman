@@ -3,7 +3,8 @@ import styles from "./Navbar.module.css";
 
 const Community = () => {
   return (
-    <div>
+    <div className={styles["nav-item"]}>
+      <div className={styles.icon}></div>
       <div>Community</div>
     </div>
   );
