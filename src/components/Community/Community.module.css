@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-.search-btn button:hover {
+.search-btn:hover {
     opacity: 0.8;
 }
 
