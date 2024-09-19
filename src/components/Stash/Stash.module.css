@@ -10,7 +10,7 @@
     gap: 5px;
 }
   
-button {
+.tabBtn {
     background-color: #d3d3d3;
     padding: 10px 20px;
     border: none;
@@ -22,14 +22,14 @@ button {
     cursor: pointer;
 }
   
-button:hover {
+.tabBtn:hover {
     background-color: #b0b0b0;
 }
   
-button:focus {
+.tabBtn:focus {
     outline: none; 
 }
   
-.StashFlikarContainer div button:active {
+.StashFlikarContainer div .tabBtn:active {
     background-color: #a8a8a8;
 }
