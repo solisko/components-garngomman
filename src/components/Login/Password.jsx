@@ -1,10 +1,11 @@
 import React from "react";
+import styles from './Login.module.css';
 
 const Password = () => {
     return(
-        <div>
-            <form>
-                <input type="password" placeholder="Lösenord" />
+        <div className={styles.loginPasswordContainer}>
+            <form className={styles.loginPasswordForm}>
+                <input className={styles.loginPasswordInput} type="password" placeholder="Lösenord" />
             </form>
         </div>
     )
