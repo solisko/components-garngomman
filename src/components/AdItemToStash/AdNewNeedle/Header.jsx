@@ -1,9 +1,10 @@
 import React from "react";
+import style from "./AdNewNeedle.module.css";
 
 const Header = () => {
   return (
-    <div>
-      <h3>Lägg till Nål</h3>
+    <div className={style.headerContainer}>
+      <h3 className={style.headerAdToStash}>Lägg till Nål</h3>
     </div>
   );
 };

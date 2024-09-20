@@ -1,0 +1,14 @@
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbdcdd; /* Lätt bakgrundsfärg, du kan ändra efter behov */
+  }
+  
+  .logo {
+    font-size: 2.5rem; /* Gör texten stor och tydlig */
+    color: #333; /* Mörk textfärg */
+    margin: 0;
+  }
+  
