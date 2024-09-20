@@ -1,31 +1,45 @@
 .StashFlikarContainer {
     display: flex;
     justify-content: center;
-    background-color: #f5f5f5; /* Light background for the container */
+    background-color: #f5f5f5;
     padding: 10px 0;
-  }
+}
   
-  nav {
+.StashFlikarContainer div {
     display: flex;
-    gap: 10px; /* Spacing between items */
-  }
+    gap: 5px;
+}
   
-  nav div {
-    background-color: #d3d3d3; /* Light grey background for each button */
+.tabBtn {
+    background-color: #d3d3d3;
     padding: 10px 20px;
-    border-top-left-radius: 20px; /* Rounded top-left corner */
-    border-top-right-radius: 20px; /* Rounded top-right corner */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
-  }
-  
-  nav div a {
-    text-decoration: none; /* Remove underline */
-    color: #000;
-    /* font-family: "Comic Sans MS", sans-serif; */
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
     font-size: 16px;
-  }
+    color: #000;
+    cursor: pointer;
+}
   
-  nav div:hover {
+.tabBtn:hover,
+.newProjectBtn:hover {
     background-color: #b0b0b0;
-  }
+}
   
+.tabBtn:focus,
+.newProjectBtn:focus {
+    outline: none; 
+}
+  
+.StashFlikarContainer div .tabBtn:active {
+    background-color: #a8a8a8;
+}
+
+.newProjectBtn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+}
