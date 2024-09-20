@@ -4,7 +4,7 @@ import style from "./AdNewNeedle.module.css";
 const Button = () => {
   return (
     <div className={style.buttonContainer}>
-      <button>Lägg till Nål</button>
+      <button className={style.buttonAdToStash}>Lägg till Nål</button>
     </div>
   );
 };
