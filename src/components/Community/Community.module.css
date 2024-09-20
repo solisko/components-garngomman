@@ -29,7 +29,7 @@
 }
 
 .search-bar input:focus {
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
+    box-shadow: 0 0 5px #D69C00;
     outline: none;
 }
 
