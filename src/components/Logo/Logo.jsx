@@ -1,9 +1,10 @@
 import React from "react";
+import logo from './Img/GarnLogoVitText.png';
 
 const Logo = () => {
     return(
-        <div>
-            Logo
+        <div className="LogoContainer">
+            <img src={logo} alt="" />
         </div>
     )
 }
