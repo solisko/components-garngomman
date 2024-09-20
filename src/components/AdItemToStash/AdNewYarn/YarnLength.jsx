@@ -1,9 +1,14 @@
 import React from "react";
+import style from "./AdNewYarn.module.css";
 
 const YarnLength = () => {
   return (
-    <div>
-      <input type="number" placeholder="Längd (m)" />
+    <div className={style.yarnInfo}>
+      <input
+        type="number"
+        placeholder="Längd (m)"
+        className={style.yarnLengthInput}
+      />
     </div>
   );
 };
