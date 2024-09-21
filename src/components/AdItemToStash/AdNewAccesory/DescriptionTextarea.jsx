@@ -5,7 +5,7 @@ const DescriptionTextarea = () => {
   return (
     <div className={style.descriptionContainer}>
       <textarea
-        className={style.textareaAdToStash}
+        className={style.textareaAdToAccesory}
         rows={10}
         cols={30}
         placeholder="Beskrivning (valfritt)"

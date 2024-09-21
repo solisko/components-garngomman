@@ -1,0 +1,64 @@
+.adNewAccesoryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d0d0d0;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .photoInputContainer {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .imageInput {
+    margin-top: 15px;
+    width: 23.5rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: white;
+  }
+  
+  .imgOfAccesory {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .textareaAdToAccesory {
+    width: 23.5rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    resize: none;
+  }
+
+  .buttonContainer {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .buttonAdToAccesory {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .buttonAdToAccesory:hover {
+    background-color: #333;
+  }

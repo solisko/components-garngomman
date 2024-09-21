@@ -6,15 +6,18 @@ import PhotoInput from "./PhotoInput";
 import NeedleLength from "./NeedleLength";
 import NeedleDiameter from "./NeedleDiameter";
 import Button from "./Button";
+import style from "./AdNewNeedle.module.css";
 
 const AdNewNeedle = () => {
   return (
-    <div>
+    <div className={style.adNewNeedleContainer}>
       <Header />
       <Img />
       <PhotoInput />
-      <NeedleLength />
-      <NeedleDiameter />
+      <div className={style.needleMeasurements}>
+        <NeedleLength />
+        <NeedleDiameter />
+      </div>
       <DescriptionTextarea />
       <Button />
     </div>

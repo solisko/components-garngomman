@@ -70,6 +70,7 @@
   border: 2px solid #ccc;
   border-radius: 10px;
   font-size: 14px;
+  resize: none;
 }
 
 .buttonContainer {
@@ -92,4 +93,13 @@
 
 .buttonAdToStash:hover {
   background-color: #333;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
