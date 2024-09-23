@@ -1,7 +1,11 @@
 import React from "react";
 import style from "./AdNewNeedle.module.css";
 
-const DescriptionTextarea = () => {
+const DescriptionTextarea = ({ setNeedleDescriptionInput }) => {
+  const needleDescriptionHandler = (e) => {
+    setNeedleDescriptionInput(e.target.value);
+  };
+
   return (
     <div className={style.descriptionContainer}>
       <textarea
@@ -9,6 +13,7 @@ const DescriptionTextarea = () => {
         rows={10}
         cols={30}
         placeholder="Beskrivning (valfritt)"
+        onBlur={needleDescriptionHandler}
       ></textarea>
     </div>
   );

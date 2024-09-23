@@ -9,16 +9,24 @@ import Button from "./Button";
 import style from "./AdNewNeedle.module.css";
 
 const AdNewNeedle = () => {
+  const [needlePhotoInput, setNeedlePhotoInput] = useState(null);
+  const [needleDescriptionInput, setNeedleDescriptionInput] = useState(null);
+  const [needleLengthInput, setNeedleLengthInput] = useState(null);
+  const [needleDiameterInput, setNeedleDiameterInput] = useState(null);
+  useState(null);
+
   return (
     <div className={style.adNewNeedleContainer}>
       <Header />
-      <Img />
-      <PhotoInput />
+      <Img needlePhotoInput={needlePhotoInput} />
+      <PhotoInput setNeedlePhotoInput={setNeedlePhotoInput} />
       <div className={style.needleMeasurements}>
-        <NeedleLength />
-        <NeedleDiameter />
+        <NeedleLength setNeedleLengthInput={setNeedleLengthInput} />
+        <NeedleDiameter setNeedleDiameterInput={setNeedleDiameterInput} />
       </div>
-      <DescriptionTextarea />
+      <DescriptionTextarea
+        setNeedleDescriptionInput={setNeedleDescriptionInput}
+      />
       <Button />
     </div>
   );
