@@ -8,7 +8,7 @@ import Img from "./Img";
 
 const AdNewAccesory = () => {
   return (
-    <div className={style.accesoryContainer}>
+    <div className={style.adNewAccesoryContainer}>
       <Header />
       <Img />
       <PhotoInput />

@@ -7,15 +7,20 @@ import YarnLength from "./YarnLength";
 import YarnWeight from "./YarnWeight";
 import YarnThickness from "./YarnThickness";
 import YarnMaterial from "./YarnMaterial";
+import style from "./AdNewYarn.module.css";
+import PhotoInput from "./PhotoInput";
 
 const AdNewYarn = () => {
   return (
-    <div>
+    <div className={style.adNewYarnContainer}>
       <Header />
       <Img />
-      <YarnLength />
-      <YarnWeight />
-      <YarnThickness />
+      <PhotoInput />
+      <div className={style.yarnMeasurementsContainer}>
+        <YarnLength />
+        <YarnWeight />
+        <YarnThickness />
+      </div>
       <YarnMaterial />
       <DescriptionTextarea />
       <Button />

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "virknal_img_1.png",
+        "längd": 17,
+        "diameter": 2.5,
+        "beskrivning": "Lätt och bekväm virknål som är perfekt för långa projekt."
+    },
+    {
+        "id": 2,
+        "img": "virknal_img_2.png",
+        "längd": 17,
+        "diameter": 5.5,
+        "beskrivning": "Perfekt för både tunna och tjocka garner, hållbar och stark."
+    },
+    {
+        "id": 3,
+        "img": "virknal_img_3.png",
+        "längd": 12,
+        "diameter": 3.5,
+        "beskrivning": "Högkvalitativ virknål med en jämn yta för enkel hantering."
+    },
+    {
+        "id": 4,
+        "img": "virknal_img_4.png",
+        "längd": 14,
+        "diameter": 6.0,
+        "beskrivning": "Perfekt för både tunna och tjocka garner, hållbar och stark."
+    },
+    {
+        "id": 5,
+        "img": "virknal_img_5.png",
+        "längd": 12,
+        "diameter": 2.5,
+        "beskrivning": "En virknål med en skön greppvänlig yta för precision."
+    },
+    {
+        "id": 6,
+        "img": "virknal_img_6.png",
+        "längd": 20,
+        "diameter": 5.0,
+        "beskrivning": "Perfekt för både tunna och tjocka garner, hållbar och stark."
+    },
+    {
+        "id": 7,
+        "img": "virknal_img_7.png",
+        "längd": 20,
+        "diameter": 4.5,
+        "beskrivning": "Perfekt för både tunna och tjocka garner, hållbar och stark."
+    },
+    {
+        "id": 8,
+        "img": "virknal_img_8.png",
+        "längd": 16,
+        "diameter": 4.0,
+        "beskrivning": "Lätt och bekväm virknål som är perfekt för långa projekt."
+    },
+    {
+        "id": 9,
+        "img": "virknal_img_9.png",
+        "längd": 19,
+        "diameter": 2.0,
+        "beskrivning": "Perfekt för både tunna och tjocka garner, hållbar och stark."
+    },
+    {
+        "id": 10,
+        "img": "virknal_img_10.png",
+        "längd": 13,
+        "diameter": 4.0,
+        "beskrivning": "Högkvalitativ virknål med en jämn yta för enkel hantering."
+    }
+]

@@ -4,7 +4,11 @@ import style from "./AdNewNeedle.module.css";
 const PhotoInput = () => {
   return (
     <div className={style.photoInputContainer}>
-      <input type="file" placeholder="Bild på tillbehör" />
+      <input
+        type="file"
+        placeholder="Bild på tillbehör"
+        className={style.imageInput}
+      />
     </div>
   );
 };

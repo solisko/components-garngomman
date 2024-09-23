@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.adNewYarnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d0d0d0;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;  /* Adjusted to ensure consistent padding */
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-family: "Indie Flower, cursive";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.photoInputContainer {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.imageInput {
+  margin-top: 15px;
+  width: 23.5rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: white;
+}
+
+/* Make the image rounded */
+.imgOfYarn {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;  /* Rounded corners */
+}
+
+/* Adjusting the yarn measurement container */
+.yarnMeasurementsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.yarnLengthInput,
+.yarnWeightInput,
+.yarnThicknessInput {
+  width: 8rem;  /* Increased width to make inputs larger but fit in one row */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  box-sizing: border-box;  /* Ensures padding is inside the width */
+}
+
+/* Other input fields for material and description */
+.yarnMaterialInput {
+  width: 23.5rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.textareaAdToStash {
+  width: 23.5rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  resize: none;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.buttonAdToStash {
+  width: 100%;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonAdToStash:hover {
+  background-color: #333;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

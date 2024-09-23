@@ -1,9 +1,10 @@
 import React from "react";
+import styles from './Login.module.css';
 
 const NextButton = () => {
     return(
-        <div>
-            <button>Nästa</button>
+        <div className={styles.loginNextButtonContainer}>
+            <button className={styles.loginNextButton}>Nästa</button>
         </div>
     )
 }

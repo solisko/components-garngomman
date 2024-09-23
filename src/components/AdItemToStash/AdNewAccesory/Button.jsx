@@ -4,7 +4,7 @@ import style from "./AdNewAccesory.module.css";
 const Button = () => {
   return (
     <div className={style.buttonContainer}>
-      <button>Lägg till Tillbehör</button>
+      <button className={style.buttonAdToAccesory}>Lägg till Tillbehör</button>
     </div>
   );
 };

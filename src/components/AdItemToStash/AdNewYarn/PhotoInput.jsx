@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./AdNewAccesory.module.css";
+import style from "./AdNewYarn.module.css";
 
 const PhotoInput = () => {
   return (
