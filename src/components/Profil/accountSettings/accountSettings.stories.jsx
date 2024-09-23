@@ -1,8 +1,8 @@
-import accountSettings from "../accountSettings";
+import AccountSettings from "./AccountSettings";
 
 export default {
-  title: "COMPONENTS/Profil/accountSettings",
-  component: accountSettings,
+  title: "COMPONENTS/Profil/AccountSettings",
+  component: AccountSettings,
 };
 
 export const Default = {};
