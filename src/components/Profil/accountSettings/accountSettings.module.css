@@ -1,0 +1,47 @@
+/* Container-styling */
+.accountcontainer {
+    background-color: #f5f7fa; /* Ljus bakgrundsfärg */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+    max-width: 400px;
+    margin: 0 auto; /* Centrera behållaren */
+    text-align: center;
+  }
+  
+  /* Form-styling */
+  .accountform {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Mellanrum mellan input-fälten */
+  }
+  
+  /* Input-fält styling */
+  .accountinput {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Ljusgrå kant */
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .accountinput:focus {
+    border-color: #4a90e2; /* Blå kant när input är i fokus */
+    outline: none; /* Ta bort standard outline */
+  }
+  
+  /* Knapp-styling */
+  .accountbtn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accountbtn:hover {
+    background-color: #357ab8; /* Mörkare blå när man hovrar */
+  }
