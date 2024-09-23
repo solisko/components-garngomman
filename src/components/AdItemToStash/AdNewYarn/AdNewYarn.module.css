@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .adNewYarnContainer {
   display: flex;
   flex-direction: column;
@@ -8,6 +10,12 @@
   width: 400px;  /* Adjusted to ensure consistent padding */
   margin: 0 auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-family: "Indie Flower, cursive";
+  font-weight: 400;
+  font-style: normal;
 }
 
 .photoInputContainer {
