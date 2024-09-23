@@ -12,13 +12,13 @@
     box-sizing: border-box;
     height: 500px;
   }
-  .profilbtn {
+  .btncontainer {
     display: flex;
     flex-direction: column; /* Ändrar riktningen så att knapparna hamnar under varandra */
     gap: 10px; /* Mellanrum mellan knapparna */
     width: 100%; /* Gör så att knapparna fyller ut hela bredden av behållaren */
   }
-  .profilbtn button {
+  .profilbtn  {
     padding: 10px 15px;
     background-color: #e2b22d; /* Grön bakgrundsfärg */
     color: white;
@@ -28,6 +28,3 @@
     font-size: 16px;
   }
   
-  .profilbtn button:hover {
-    background-color: #45a049; /* Lite mörkare grönt när man hovrar */
-  }
