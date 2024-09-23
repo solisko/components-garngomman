@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "garn_img_1.png",
+        "img": "Bgarn.png",
         "vikt": 138.07,
         "längd": 498.27,
         "material": "lin",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "img": "garn_img_2.png",
+        "img": "Bgarn.png",
         "vikt": 206.88,
         "längd": 386.78,
         "material": "bambu",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "img": "garn_img_3.png",
+        "img": "Bgarn.png",
         "vikt": 210.29,
         "längd": 355.77,
         "material": "bambu",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "img": "garn_img_4.png",
+        "img": "Bgarn.png",
         "vikt": 267.19,
         "längd": 231.57,
         "material": "akryl",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "img": "garn_img_5.png",
+        "img": "Bgarn.png",
         "vikt": 66.49,
         "längd": 463.02,
         "material": "akryl",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "img": "garn_img_6.png",
+        "img": "Bgarn.png",
         "vikt": 134.2,
         "längd": 305.28,
         "material": "lin",
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "img": "garn_img_7.png",
+        "img": "Bgarn.png",
         "vikt": 93.41,
         "längd": 424.2,
         "material": "bambu",
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "img": "garn_img_8.png",
+        "img": "Bgarn.png",
         "vikt": 163.46,
         "längd": 266.89,
         "material": "bambu",
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "img": "garn_img_9.png",
+        "img": "Bgarn.png",
         "vikt": 119.06,
         "längd": 447.5,
         "material": "bomull",
@@ -73,7 +73,7 @@
     },
     {
         "id": 10,
-        "img": "garn_img_10.png",
+        "img": "Bgarn.png",
         "vikt": 119.05,
         "längd": 416.21,
         "material": "bambu",
