@@ -1,9 +1,10 @@
 import React from "react";
+import styles from './Login.module.css'
 
 const LoginBtnEmail = () => {
     return(
-        <div>
-            <button>LOGGA IN MED EMAIL</button>
+        <div className={styles.loginBtnEmailContainer}>
+            <button className={styles.loginBtnEmail}>LOGGA IN MED EMAIL</button>
         </div>
     )
 }
