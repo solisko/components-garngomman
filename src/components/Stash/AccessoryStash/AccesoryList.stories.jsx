@@ -1,7 +1,7 @@
 import AccesoryList from "./AccesoryList";
 
 export default {
-  title: "COMPONENTS/Stash/AccesoryStash/AccesoryList",
+  title: "COMPONENTS/Stash/AccessoryStash/AccesoryList",
   component: AccesoryList,
 };
 
