@@ -1,3 +1,4 @@
-.logo1 {
+.logo1, .nystan, .logoTitle {
     width: 150px;
+    display: flex;
 }
