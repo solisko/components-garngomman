@@ -2,51 +2,61 @@
     {
         "id": 1,
         "img": "tillbehor_img_1.png",
+        "name": "fakenamn",
         "beskrivning": "Hållbara markörer som hjälper dig att hålla koll på dina varv."
     },
     {
         "id": 2,
         "img": "tillbehor_img_2.png",
+        "name": "fakenamn",
         "beskrivning": "Mjuk och smidig kabel för rundstickning."
     },
     {
         "id": 3,
         "img": "tillbehor_img_3.png",
+        "name": "fakenamn",
         "beskrivning": "Mätverktyg för att kontrollera storleken på stickor och virknålar."
     },
     {
         "id": 4,
         "img": "tillbehor_img_4.png",
+        "name": "fakenamn",
         "beskrivning": "Mjuk och smidig kabel för rundstickning."
     },
     {
         "id": 5,
         "img": "tillbehor_img_5.png",
+        "name": "fakenamn",
         "beskrivning": "Hållbara markörer som hjälper dig att hålla koll på dina varv."
     },
     {
         "id": 6,
         "img": "tillbehor_img_6.png",
+        "name": "fakenamn",
         "beskrivning": "Hållbara markörer som hjälper dig att hålla koll på dina varv."
     },
     {
         "id": 7,
         "img": "tillbehor_img_7.png",
+        "name": "fakenamn",
         "beskrivning": "Praktiskt fodral för förvaring av virknålar och tillbehör."
     },
     {
         "id": 8,
         "img": "tillbehor_img_8.png",
+        "name": "fakenamn",
         "beskrivning": "Mätverktyg för att kontrollera storleken på stickor och virknålar."
     },
     {
         "id": 9,
         "img": "tillbehor_img_9.png",
+        "name": "fakenamn",
         "beskrivning": "Väskhållare som gör det enkelt att ta med dina projekt överallt."
     },
     {
         "id": 10,
         "img": "tillbehor_img_10.png",
+        "name": "fakenamn",
         "beskrivning": "Hållbara markörer som hjälper dig att hålla koll på dina varv."
     }
 ]
