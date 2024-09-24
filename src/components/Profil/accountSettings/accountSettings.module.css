@@ -1,47 +1,120 @@
-/* Container-styling */
+/* Container för hela kontoinställningarna */
 .accountcontainer {
-    background-color: #f5f7fa; /* Ljus bakgrundsfärg */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga */
-    max-width: 400px;
-    margin: 0 auto; /* Centrera behållaren */
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Mellanrum mellan inställningarna */
+  padding: 20px; /* Padding runt hela kontoinställningarna */
+  background-color: #f5f5f5; /* Ljus bakgrundsfärg för att separera från övrigt */
+  border-radius: 10px; /* Rundade hörn */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+}
+
+/* Styling för EmailSetting komponenten */
+.EmailSettingContainer {
+  background-color: #fff; /* Vit bakgrund för att framhäva innehållet */
+  padding: 15px; /* Padding inuti container */
+  border-radius: 5px; /* Rundade hörn */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+}
+
+.EmailSettingForm {
+  display: flex;
+  flex-direction: column; /* Stacker input-fälten vertikalt */
+  gap: 10px; /* Mellanrum mellan input-fälten */
+}
+
+.EmailSettingInput {
+  padding: 10px; /* Padding inuti input */
+  border: 1px solid #ccc; /* Ljus grå kant */
+  border-radius: 5px; /* Rundade hörn på input-fältet */
+  font-size: 16px; /* Större textstorlek */
+}
+
+/* Styling för PasswordSetting komponenten */
+.PasswordSettingContainer {
+  background-color: #fff; /* Vit bakgrund */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.PasswordSettingForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.PasswordSettingInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styling för UsernameSetting komponenten */
+.UsernameSettingContainer {
+  background-color: #fff; /* Vit bakgrund */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.UsernameSettingForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.UsernameSettingInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styling för SettingsButton komponenten */
+.settingsBtnContainer {
+  display: flex;
+  justify-content: center; /* Centrerar knappen horisontellt */
+  margin-top: 20px; /* Mellanrum ovanför knappen */
+}
+
+.settingBtn {
+  padding: 10px 20px; /* Padding inuti knappen */
+  background-color: #6a9122; /* Blå bakgrund för knappen */
+  color: white; /* Vit textfärg */
+  border: none; /* Ingen kant */
+  border-radius: 5px; /* Rundade hörn */
+  cursor: pointer; /* Handen vid hover */
+  font-size: 16px; /* Större textstorlek */
+  transition: background-color 0.3s; /* Smooth transition för hover */
+}
+
+.settingBtn:hover {
+  background-color: #0056b3; /* Mörkare blå vid hover */
+}
+
+/* Mobilanpassning */
+@media (max-width: 600px) {
+  .accountcontainer {
+      padding: 10px; /* Minska padding på mindre skärmar */
   }
-  
-  /* Form-styling */
-  .accountform {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Mellanrum mellan input-fälten */
+
+  .EmailSettingContainer,
+  .PasswordSettingContainer,
+  .UsernameSettingContainer {
+      padding: 10px; /* Minska padding i inställningscontainer */
   }
-  
-  /* Input-fält styling */
-  .accountinput {
-    padding: 12px;
-    border-radius: 5px;
-    border: 1px solid #ccc; /* Ljusgrå kant */
-    font-size: 16px;
-    transition: border-color 0.3s;
+
+  .EmailSettingInput,
+  .PasswordSettingInput,
+  .UsernameSettingInput {
+      padding: 8px; /* Minska padding i input-fälten */
+      font-size: 14px; /* Minska textstorlek i input-fälten */
   }
-  
-  .accountinput:focus {
-    border-color: #4a90e2; /* Blå kant när input är i fokus */
-    outline: none; /* Ta bort standard outline */
+
+  .settingBtn {
+      padding: 8px 16px; /* Minska padding på knappen */
+      font-size: 14px; /* Minska textstorlek på knappen */
   }
-  
-  /* Knapp-styling */
-  .accountbtn {
-    background-color: #4a90e2;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .accountbtn:hover {
-    background-color: #357ab8; /* Mörkare blå när man hovrar */
-  }
+}
