@@ -1,28 +1,17 @@
 import React from "react";
+import EmailSetting from "./EmailSetting";
+import PasswordSetting from "./PasswordSetting";
+import UsernameSetting from "./UsernameSetting";
 import styles from "./AccountSettings.module.css";
+import SettingsButton from "./SettingsButton";
 
 const AccountSettings = () => {
   return (
     <div className={styles.accountcontainer}>
-      <h2>Kontoinställningar</h2>
-      <form className={styles.accountform}>
-        <input
-          className={styles.accountinput}
-          type="text"
-          placeholder="Användarnamn"
-        />
-        <input
-          className={styles.accountinput}
-          type="text"
-          placeholder="Lösenord"
-        />
-        <input
-          className={styles.accountinput}
-          type="text"
-          placeholder="E-postadress"
-        />
-        <button className={styles.accountbtn}>Spara</button>
-      </form>
+      <UsernameSetting />
+      <EmailSetting />
+      <PasswordSetting />
+      <SettingsButton />
     </div>
   );
 };
