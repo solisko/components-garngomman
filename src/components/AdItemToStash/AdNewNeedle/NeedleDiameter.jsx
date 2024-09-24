@@ -7,14 +7,14 @@ const NeedleDiameter = ({ setNeedleDiameterInput }) => {
   };
 
   return (
-    <div className={style.yarnInfo}>
+    <>
       <input
         type="number"
         placeholder="Diameter (ytter)"
         className={style.needleDiameter}
         onBlur={needleDiameterHandler}
       />
-    </div>
+    </>
   );
 };
 
