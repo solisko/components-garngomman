@@ -7,14 +7,14 @@ const YarnThickness = ({ setYarnThicknessInput }) => {
   };
 
   return (
-    <div className={style.yarnInfo}>
+    <>
       <input
         type="number"
         placeholder="Tjocklek (mm)"
         className={style.yarnThicknessInput}
         onBlur={yarnThicknessHandler}
       />
-    </div>
+    </>
   );
 };
 
