@@ -11,7 +11,7 @@ const DescriptionTextarea = ({ setAccesoryDescriptionInput }) => {
       <textarea
         className={style.textareaAdToAccesory}
         rows={10}
-        cols={30}
+        cols={40}
         placeholder="Beskrivning (valfritt)"
         onBlur={descriptionInputStateSetter}
       ></textarea>

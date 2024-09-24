@@ -20,7 +20,6 @@ const AdNewAccesory = () => {
         setAccesoryDescriptionInput={setAccesoryDescriptionInput}
       />
       <Button />
-      {accesoryPhotoInput}
     </div>
   );
 };
