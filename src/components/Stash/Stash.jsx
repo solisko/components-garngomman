@@ -3,7 +3,7 @@ import styles from "./Stash.module.css";
 import StashFlikar from "./StashFlikar";
 import StashSearch from "./StashSearch";
 import StashBtn from "./StashBtn";
-import YarnList from "./YarnList";
+import YarnList from "./YarnStash/YarnList";
 
 const Stash = () => {
   return (

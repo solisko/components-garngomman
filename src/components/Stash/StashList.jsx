@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import yarnData from "./yarn-data.json";
+import yarnData from "./yarndata.json";
 import needleData from "./needleData.json";
 import accesoryData from "./accesoryData.json";
+import Bgarn from "../../Assets/Bgarn.png";
+import styles from "./Stash.module.css";
 
 const StashList = () => {
   const [stashList, setStashList] = useState([
@@ -12,12 +14,24 @@ const StashList = () => {
 
   return (
     <div>
-      <ul>
-        {stashList.map((item) => (
-          <li>
+      <ul className={styles.listContainer}>
+        {stashList.map((item, idx) => (
+          <li className={styles.stashList} key={idx}>
             <div>
-              <img src="" alt="" />
-              <p></p>
+              <img className={styles.stshListImg} src={Bgarn} alt="" />
+              <p className={styles.stashListName}>{item.name}</p>
+
+              {item.category === "yarn" && (
+                <>
+                  <p>{item.weight} gram</p>
+                </>
+              )}
+              {item.category === "needle" && (
+                <>
+                  <p>{item.diameter} mm</p>
+                </>
+              )}
+              {item.category === "accesory" && <></>}
             </div>
           </li>
         ))}

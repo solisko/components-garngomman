@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "category": "needle",
         "img": "virknal_img_1.png",
         "name": "hobbie",
         "längd": 17,
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "category": "needle",
         "img": "virknal_img_2.png",
         "name": "Anna-Maria",
         "längd": 17,
@@ -17,6 +19,7 @@
     },
     {
         "id": 3,
+        "category": "needle",
         "img": "virknal_img_3.png",
         "name": "hobbie",
         "längd": 12,
@@ -25,6 +28,7 @@
     },
     {
         "id": 4,
+        "category": "needle",
         "img": "virknal_img_4.png",
         "name": "Anna-Maria",
         "längd": 14,
@@ -33,6 +37,7 @@
     },
     {
         "id": 5,
+        "category": "needle",
         "img": "virknal_img_5.png",
         "name": "hobbie",
         "längd": 12,
@@ -41,6 +46,7 @@
     },
     {
         "id": 6,
+        "category": "needle",
         "img": "virknal_img_6.png",
         "name": "Anna-Maria",
         "längd": 20,
@@ -49,6 +55,7 @@
     },
     {
         "id": 7,
+        "category": "needle",
         "img": "virknal_img_7.png",
         "name": "hobbie",
         "längd": 20,
@@ -57,6 +64,7 @@
     },
     {
         "id": 8,
+        "category": "needle",
         "img": "virknal_img_8.png",
         "name": "Anna-Maria",
         "längd": 16,
@@ -65,6 +73,7 @@
     },
     {
         "id": 9,
+        "category": "needle",
         "img": "virknal_img_9.png",
         "name": "hobbie",
         "längd": 19,
@@ -73,6 +82,7 @@
     },
     {
         "id": 10,
+        "category": "needle",
         "img": "virknal_img_10.png",
         "name": "Anna-Maria",
         "längd": 13,
