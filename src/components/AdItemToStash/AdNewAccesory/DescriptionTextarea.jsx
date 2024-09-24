@@ -1,7 +1,11 @@
 import React from "react";
 import style from "./AdNewAccesory.module.css";
 
-const DescriptionTextarea = () => {
+const DescriptionTextarea = ({ setAccesoryDescriptionInput }) => {
+  const descriptionInputStateSetter = (e) => {
+    setAccesoryDescriptionInput(e.target.value);
+  };
+
   return (
     <div className={style.descriptionContainer}>
       <textarea
@@ -9,6 +13,7 @@ const DescriptionTextarea = () => {
         rows={10}
         cols={30}
         placeholder="Beskrivning (valfritt)"
+        onBlur={descriptionInputStateSetter}
       ></textarea>
     </div>
   );

@@ -2,11 +2,11 @@ import React from "react";
 import placeholder from "./placeholderImg.png";
 import style from "./AdNewYarn.module.css";
 
-const Img = () => {
+const Img = ({ yarnPhotoInput }) => {
   return (
     <div className={style.imgContainer}>
       <img
-        src={placeholder}
+        src={yarnPhotoInput ? yarnPhotoInput : placeholder}
         alt="placeholder img"
         className={style.imgOfYarn}
       />

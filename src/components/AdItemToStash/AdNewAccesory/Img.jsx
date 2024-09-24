@@ -2,11 +2,11 @@ import React from "react";
 import placeholder from "./placeholderImg.png";
 import style from "./AdNewAccesory.module.css";
 
-const Img = () => {
+const Img = ({ accesoryPhotoInput }) => {
   return (
     <div className={style.imgContainer}>
       <img
-        src={placeholder}
+        src={accesoryPhotoInput ? accesoryPhotoInput : placeholder}
         alt="placeholder bild"
         className={style.imgOfAccesory}
       />
