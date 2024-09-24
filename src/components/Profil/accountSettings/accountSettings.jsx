@@ -8,6 +8,7 @@ import SettingsButton from "./SettingsButton";
 const AccountSettings = () => {
   return (
     <div className={styles.accountcontainer}>
+      <h2 className={styles.SettingsHeading}>Kontoinställningar</h2>
       <UsernameSetting />
       <EmailSetting />
       <PasswordSetting />
