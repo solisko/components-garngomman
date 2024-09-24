@@ -15,7 +15,10 @@ const AdNewAccesory = () => {
     <div className={style.adNewAccesoryContainer}>
       <Header />
       <Img accesoryPhotoInput={accesoryPhotoInput} />
-      <PhotoInput setAccesoryPhotoInput={setAccesoryPhotoInput} />
+      <PhotoInput
+        setAccesoryPhotoInput={setAccesoryPhotoInput}
+        accesoryPhotoInput={accesoryPhotoInput}
+      />
       <DescriptionTextarea
         setAccesoryDescriptionInput={setAccesoryDescriptionInput}
       />

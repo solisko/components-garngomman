@@ -3,7 +3,7 @@ import style from "./AdNewAccesory.module.css";
 
 const PhotoInput = ({ setAccesoryPhotoInput }) => {
   const uploadImageHandler = (e) => {
-    setAccesoryPhotoInput(e.target.value);
+    setAccesoryPhotoInput(URL.createObjectURL(e.target.files[0]));
   };
 
   return (
