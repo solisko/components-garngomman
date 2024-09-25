@@ -1,0 +1,37 @@
+.OptionContainer {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Avstånd mellan olika alternativ */
+  }
+  
+  .MembershipForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px; /* Rundade hörn */
+    background-color: #f7f7f7; /* Ljus bakgrund */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Liten skugga */
+  }
+  
+  .MembershipLabel {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Visar att det går att klicka */
+    padding: 10px;
+    border-radius: 4px; /* Rundade hörn */
+    transition: background-color 0.3s; /* Långsam övergång */
+  }
+  
+  .MembershipLabel:hover {
+    background-color: #e0e0e0; /* Ljusare bakgrund vid hover */
+  }
+  
+  .MembershipInput {
+    margin-right: 10px; /* Avstånd mellan radio-knapp och text */
+    accent-color: #007bff; /* Färg på radio-knappen (modern stil) */
+  }
+  
+  .RadioText {
+    font-weight: 600; /* Fet text för bättre synlighet */
+    color: #333; /* Mörkare textfärg */
+  }
