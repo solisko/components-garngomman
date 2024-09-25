@@ -7,14 +7,14 @@ const YarnMaterial = ({ setYarnMaterialInput }) => {
   };
 
   return (
-    <div className={style.yarnInfo}>
+    <>
       <input
         type="text"
         placeholder="Material (ex, 45% ull 55% Bomull"
         className={style.yarnMaterialInput}
         onBlur={yarnMaterialHandler}
       />
-    </div>
+    </>
   );
 };
 

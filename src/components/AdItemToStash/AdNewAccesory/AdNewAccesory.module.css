@@ -7,7 +7,7 @@
     background-color: #d0d0d0;
     border-radius: 15px;
     padding: 20px;
-    width: 400px;
+    max-width: 450px;
     margin: 0 auto;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
@@ -15,11 +15,13 @@
   .photoInputContainer {
     margin-bottom: 15px;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   .imageInput {
     margin-top: 15px;
-    width: 23.5rem;
+    width: 80%;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 10px;
@@ -29,13 +31,21 @@
   
   .imgOfAccesory {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 15px;
+    height: 200px; 
+    max-height: 200px;
+    overflow: hidden;
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+
+  .descriptionContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
   .textareaAdToAccesory {
-    width: 23.5rem;
+    width: 80%;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 10px;
@@ -46,10 +56,12 @@
   .buttonContainer {
     margin-top: 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   .buttonAdToAccesory {
-    width: 100%;
+    width: 85%;
     padding: 10px;
     background-color: #444;
     color: white;
