@@ -1,14 +1,10 @@
 .header {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #dbdcdd; /* Lätt bakgrundsfärg, du kan ändra efter behov */
-  }
-  
-  .logo {
-    font-size: 2.5rem; /* Gör texten stor och tydlig */
-    color: #333; /* Mörk textfärg */
-    margin: 0;
-  }
-  
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdcdd;
+  padding: 15px;
+  margin-bottom: 15px;
+  max-width: 450px;
+}
