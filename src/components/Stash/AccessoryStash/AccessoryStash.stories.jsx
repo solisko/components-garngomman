@@ -1,7 +1,7 @@
 import AccessoryStash from "./AccessoryStash";
 
 export default {
-  tilte: "COMPONENTS/Stash/AccessoryStash/AccessoryStash",
+  title: "COMPONENTS/Stash/AccessoryStash/AccessoryStash",
   component: AccessoryStash,
 };
 

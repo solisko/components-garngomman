@@ -1,7 +1,7 @@
 import NeedleStash from "./NeedleStash";
 
 export default {
-  tilte: "COMPONENTS/Stash/NeedleStash/NeedleStash",
+  title: "COMPONENTS/Stash/NeedleStash/NeedleStash",
   component: NeedleStash,
 };
 
