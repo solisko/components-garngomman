@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #f5f5f5;
-    /* padding: 10px 0; */
+    max-width: 450px;
 }
   
 .StashFlikarContainer div {
@@ -16,6 +16,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #d3d3d3;
+    max-width: 450px;
 }
   
 .tabBtn {
@@ -50,27 +51,43 @@
     font-size: 14px;
     color: #000;
     cursor: pointer;
+    /* margin-right: 2vw; */
+}
+
+.searchInput {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    /* margin-left: 2vw; */
+}
+
+.newProjectBtn,
+.searchInput {
+    margin: 10px;
 }
 
 .listContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    padding: 20px;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
     background-color: #d3d3d3;
 }
   
 .stashList {
     list-style: none;
-    flex: 0 1 calc(22% - 20px);
-    max-width: calc(22% - 20px);
+    flex: 0 1 calc(22%);
+    max-width: calc(22%);
     background-color: white;
-    padding: 15px;
-    margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
   
 .stashList img {
