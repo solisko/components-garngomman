@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "category": "yarn",
         "img": "Bgarn_1.png",
         "name": "Lova",
         "weight": 90,
@@ -10,6 +11,7 @@
     },
     {
         "id": 2,
+        "category": "yarn",
         "img": "Bgarn_2.png",
         "name": "Saga",
         "weight": 287,
@@ -19,6 +21,7 @@
     },
     {
         "id": 3,
+        "category": "yarn",
         "img": "Bgarn_3.png",
         "name": "Lova",
         "weight": 294,
@@ -28,6 +31,7 @@
     },
     {
         "id": 4,
+        "category": "yarn",
         "img": "Bgarn_4.png",
         "name": "Saga",
         "weight": 67,
@@ -37,6 +41,7 @@
     },
     {
         "id": 5,
+        "category": "yarn",
         "img": "Bgarn_5.png",
         "name": "Ulla",
         "weight": 95,
@@ -46,6 +51,7 @@
     },
     {
         "id": 6,
+        "category": "yarn",
         "img": "Bgarn_6.png",
         "name": "Vera",
         "weight": 100,
@@ -55,6 +61,7 @@
     },
     {
         "id": 7,
+        "category": "yarn",
         "img": "Bgarn_7.png",
         "name": "Vera",
         "weight": 104,
@@ -64,6 +71,7 @@
     },
     {
         "id": 8,
+        "category": "yarn",
         "img": "Bgarn_8.png",
         "name": "Vera",
         "weight": 100,
@@ -73,6 +81,7 @@
     },
     {
         "id": 9,
+        "category": "yarn",
         "img": "Bgarn_9.png",
         "name": "Freja",
         "weight": 225,
@@ -82,6 +91,7 @@
     },
     {
         "id": 10,
+        "category": "yarn",
         "img": "Bgarn_10.png",
         "name": "Vera",
         "weight": 212,

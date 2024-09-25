@@ -11,7 +11,7 @@ const DescriptionTextarea = ({ setNeedleDescriptionInput }) => {
       <textarea
         className={style.textareaAdToStash}
         rows={10}
-        cols={30}
+        cols={50}
         placeholder="Beskrivning (valfritt)"
         onBlur={needleDescriptionHandler}
       ></textarea>

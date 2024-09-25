@@ -3,7 +3,7 @@ import styles from "./Stash.module.css";
 import StashFlikar from "./StashFlikar";
 import StashSearch from "./StashSearch";
 import StashBtn from "./StashBtn";
-import YarnList from "./YarnList";
+import StashList from "./StashList";
 
 const Stash = () => {
   return (
@@ -12,7 +12,7 @@ const Stash = () => {
       <div className={styles.stashContainer}>
         <StashSearch />
         <StashBtn />
-        <YarnList />
+        <StashList />
       </div>
     </div>
   );

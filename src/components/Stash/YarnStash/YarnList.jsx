@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import yarnData from "./yarn-data.json";
-import styles from "./Stash.module.css";
-import Bgarn from "../../Assets/Bgarn.png";
+import yarnData from "../yarndata.json";
+import styles from "../Stash.module.css";
+import Bgarn from "../../../Assets/Bgarn.png";
 
 const YarnList = () => {
   const [yarnList, setYarnList] = useState(yarnData);
 
   return (
     <div>
-      <ul className={styles.listContaioner}>
+      <ul className={styles.listContainer}>
         {yarnList.map((yarn) => (
           <li className={styles.stashList} key={yarn.id}>
             <div>

@@ -3,7 +3,7 @@ import style from "./AdNewNeedle.module.css";
 
 const PhotoInput = ({ setNeedlePhotoInput }) => {
   const uploadImageHandler = (e) => {
-    setNeedlePhotoInput(e.target.value);
+    setNeedlePhotoInput(URL.createObjectURL(e.target.files[0]));
   };
 
   return (
@@ -12,7 +12,7 @@ const PhotoInput = ({ setNeedlePhotoInput }) => {
         type="file"
         placeholder="Bild på tillbehör"
         className={style.imageInput}
-        onBlur={uploadImageHandler}
+        onChange={uploadImageHandler}
       />
     </div>
   );

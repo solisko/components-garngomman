@@ -3,7 +3,7 @@ import style from "./AdNewYarn.module.css";
 
 const PhotoInput = ({ setYarnPhotoInput }) => {
   const yarnPhotoHandler = (e) => {
-    setYarnPhotoInput(e.target.value);
+    setYarnPhotoInput(URL.createObjectURL(e.target.files[0]));
   };
   return (
     <div className={style.photoInputContainer}>
@@ -11,7 +11,7 @@ const PhotoInput = ({ setYarnPhotoInput }) => {
         type="file"
         placeholder="Bild på tillbehör"
         className={style.imageInput}
-        onBlur={yarnPhotoHandler}
+        onChange={yarnPhotoHandler}
       />
     </div>
   );

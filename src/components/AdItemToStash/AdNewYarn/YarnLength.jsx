@@ -7,14 +7,14 @@ const YarnLength = ({ setYarnLengthInput }) => {
   };
 
   return (
-    <div className={style.yarnInfo}>
+    <>
       <input
         type="number"
         placeholder="Längd (m)"
         className={style.yarnLengthInput}
         onBlur={yarnLengthHandler}
       />
-    </div>
+    </>
   );
 };
 

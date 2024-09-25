@@ -1,7 +1,7 @@
 import YarnList from "./YarnList";
 
 export default {
-  title: "COMPONENTS/Stash/YarnList/YarnList",
+  title: "COMPONENTS/Stash/YarnStash/YarnList",
   component: YarnList,
 };
 

@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./Stash.module.css";
 
 const StashSearch = () => {
   return (
     <div>
-      <input type="text" placeholder="Sök här" />
+      <input className={styles.searchInput} type="text" placeholder="Sök här" />
     </div>
   );
 };

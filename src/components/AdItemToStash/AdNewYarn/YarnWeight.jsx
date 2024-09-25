@@ -7,14 +7,14 @@ const YarnWeight = ({ setYarnWeightInput }) => {
   };
 
   return (
-    <div className={style.yarnInfo}>
+    <>
       <input
         type="number"
         placeholder="Vikt (g)"
         className={style.yarnWeightInput}
         onBlur={yarnWeightHandler}
       />
-    </div>
+    </>
   );
 };
 
