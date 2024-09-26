@@ -5,8 +5,10 @@ import PhotoInput from "./PhotoInput";
 import DescriptionTextarea from "./DescriptionTextarea";
 import Button from "./Button";
 import Img from "./Img";
+import NameInput from "./NameInput";
 
 const AdNewAccesory = () => {
+  const [accesoryNameInput, setAccesoryNameInput] = useState(null);
   const [accesoryPhotoInput, setAccesoryPhotoInput] = useState(null);
   const [accesoryDescriptionInput, setAccesoryDescriptionInput] =
     useState(null);
@@ -19,6 +21,7 @@ const AdNewAccesory = () => {
         setAccesoryPhotoInput={setAccesoryPhotoInput}
         accesoryPhotoInput={accesoryPhotoInput}
       />
+      <NameInput setAccesoryNameInput={setAccesoryNameInput} />
       <DescriptionTextarea
         setAccesoryDescriptionInput={setAccesoryDescriptionInput}
       />

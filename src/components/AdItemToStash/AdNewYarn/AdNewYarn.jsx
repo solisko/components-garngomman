@@ -9,9 +9,11 @@ import YarnThickness from "./YarnThickness";
 import YarnMaterial from "./YarnMaterial";
 import style from "./AdNewYarn.module.css";
 import PhotoInput from "./PhotoInput";
+import NameInput from "./NameInput";
 
 const AdNewYarn = () => {
   const [yarnPhotoInput, setYarnPhotoInput] = useState(null);
+  const [yarnNameInput, setYarnNameInput] = useState(null);
   const [yarnLengthInput, setYarnLengthInput] = useState(null);
   const [yarnWeightInput, setYarnWeightInput] = useState(null);
   useState(null);
@@ -24,6 +26,7 @@ const AdNewYarn = () => {
       <Header />
       <Img yarnPhotoInput={yarnPhotoInput} />
       <PhotoInput setYarnPhotoInput={setYarnPhotoInput} />
+      <NameInput setYarnNameInput={setYarnNameInput} />
       <div className={style.yarnMeasurementsContainer}>
         <YarnLength setYarnLengthInput={setYarnLengthInput} />
         <YarnWeight setYarnWeightInput={setYarnWeightInput} />

@@ -39,6 +39,16 @@
     border-radius: 10px;
   }
 
+  .nameInput{
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: white;
+    margin-bottom: 15px;
+  }
+
   .textareaAdToStash {
     width: 80%;
     padding: 10px;
