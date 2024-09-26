@@ -1,3 +1,4 @@
+/* General styles for all devices */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -44,13 +45,14 @@
     cursor: pointer;
 }
 
-.search-btn:hover {
+.search-btn button:hover {
     opacity: 0.8;
 }
 
+/* Feed grid layout */
 .feed {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
     gap: 20px;
     border-radius: 10px;
 }
@@ -59,7 +61,7 @@
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -75,7 +77,7 @@
 }
 
 .feed-item h3 {
-    font-size: 20px;
+    font-size: 18px;
     color: #333;
     margin-bottom: 10px;
 }
@@ -83,4 +85,43 @@
 .feed-item p {
     font-size: 14px;
     color: #666;
+}
+
+/* Adjusting layout for smaller devices */
+@media (max-width: 768px) {
+    .feed {
+        grid-template-columns: repeat(3, 1fr); /* Still 3 columns but smaller */
+        gap: 10px;
+    }
+
+    .feed-item {
+        padding: 10px; /* Reduced padding */
+    }
+
+    .feed-item h3 {
+        font-size: 16px;
+    }
+
+    .feed-item p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .feed {
+        grid-template-columns: repeat(3, 1fr); /* 3 smaller columns */
+        gap: 5px;
+    }
+
+    .feed-item {
+        padding: 8px; /* Smaller padding */
+    }
+
+    .feed-item h3 {
+        font-size: 14px;
+    }
+
+    .feed-item p {
+        font-size: 11px;
+    }
 }
