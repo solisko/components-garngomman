@@ -1,37 +1,83 @@
 .OptionContainer {
-    display: flex;
-    align-items: center;
-    margin: 10px 0; /* Avstånd mellan olika alternativ */
-  }
-  
+  display: flex;
+  align-items: center;
+  margin: 15px 0; /* Ökat mellanrum mellan alternativen */
+}
+
+.MembershipForm {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 8px; /* Rundade hörn */
+  background-color: #f7f7f7; /* Ljus bakgrund */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Lättare skugga för snyggare utseende */
+  max-width: 400px; /* Begränsa bredden på stora skärmar */
+  margin: 0 auto; /* Centrera formuläret horisontellt */
+}
+
+.MembershipLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Visar att det går att klicka */
+  padding: 12px;
+  border-radius: 6px; /* Rundade hörn */
+  transition: background-color 0.3s;
+  background-color: #fff; /* Vit bakgrund för varje val */
+  margin-bottom: 10px; /* Mellanrum mellan alternativen */
+}
+
+.MembershipLabel:hover {
+  background-color: #e0e0e0; /* Ljusare bakgrund vid hover */
+}
+
+.MembershipInput {
+  margin-right: 12px; /* Avstånd mellan radio-knapp och text */
+  accent-color: #007bff; /* Färg på radio-knappen (modern stil) */
+}
+
+.RadioText {
+  font-weight: 600; /* Fet text för bättre synlighet */
+  color: #333; /* Mörkare textfärg */
+}
+.MembershipContainer {
+  display: flex;
+  flex-direction: column; /* Rada upp alternativen vertikalt */
+  align-items: center; /* Centrera innehållet horisontellt */
+  padding: 20px; /* Avstånd runt hela komponenten */
+}
+
+.MembershipButton {
+  background-color: #3498db; /* Ljusblå bakgrund */
+  color: white; /* Vit text */
+  border: none; /* Ingen kant */
+  padding: 12px 24px; /* Knappens inre avstånd */
+  font-size: 16px; /* Textstorlek */
+  border-radius: 6px; /* Rundade hörn */
+  cursor: pointer; /* Hand-cursor vid hover */
+  transition: background-color 0.2s ease;
+  margin-top: 20px; /* Avstånd mellan alternativen och knappen */
+  width: 100%; /* Gör knappen full bredd */
+  max-width: 200px; /* Maxbredd för knappen */
+  text-align: center; /* Centrerar texten i knappen */
+}
+
+.MembershipButton:hover {
+  background-color: #2980b9; /* Mörkare blå på hover */
+}
+
+/* Mobilanpassning */
+@media (max-width: 600px) {
   .MembershipForm {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border-radius: 8px; /* Rundade hörn */
-    background-color: #f7f7f7; /* Ljus bakgrund */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Liten skugga */
+      padding: 10px;
+      max-width: 90%; /* Nästan full bredd på små skärmar */
   }
-  
+
   .MembershipLabel {
-    display: flex;
-    align-items: center;
-    cursor: pointer; /* Visar att det går att klicka */
-    padding: 10px;
-    border-radius: 4px; /* Rundade hörn */
-    transition: background-color 0.3s; /* Långsam övergång */
+      padding: 10px;
   }
-  
-  .MembershipLabel:hover {
-    background-color: #e0e0e0; /* Ljusare bakgrund vid hover */
+
+  .MembershipButton {
+      width: 100%; /* Full bredd på knappen på små skärmar */
+      font-size: 14px; /* Mindre textstorlek för mobil */
   }
-  
-  .MembershipInput {
-    margin-right: 10px; /* Avstånd mellan radio-knapp och text */
-    accent-color: #007bff; /* Färg på radio-knappen (modern stil) */
-  }
-  
-  .RadioText {
-    font-weight: 600; /* Fet text för bättre synlighet */
-    color: #333; /* Mörkare textfärg */
-  }
+}
