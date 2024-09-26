@@ -10,8 +10,10 @@ const AccessoryStash = () => {
     <div>
       <StashFlikar />
       <div className={styles.stashContainer}>
-        <StashSearch />
-        <StashBtn />
+        <div className={styles.stashHead}>
+          <StashSearch />
+          <StashBtn />
+        </div>
         <AccesoryList />
       </div>
     </div>
