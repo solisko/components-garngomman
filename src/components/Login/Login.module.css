@@ -67,4 +67,77 @@
       padding: 10px;
     }
   }
+
+
   
+  /* Mobile-first styling */
+.startContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrerar horisontellt */
+  justify-content: center; /* Centrerar vertikalt */
+  min-height: 100vh; /* Fyller hela höjden på skärmen */
+  padding: 20px;
+  box-sizing: border-box; /* Ser till att padding inkluderas i elementets bredd */
+}
+
+.logo1Container {
+  margin-bottom: 20px; /* Avstånd mellan logotypen och knapparna */
+}
+
+.loginBtnEmailContainer,
+.loginBtnAppleContainer,
+.loginBtnGoogleContainer {
+  width: 100%;
+  max-width: 300px; /* Gör knapparna max 300px breda */
+  margin: 10px 0;
+}
+
+.loginBtnEmail, 
+.loginBtnApple, 
+.loginBtnGoogle {
+  width: 100%; /* Knappar tar hela bredden av sin container */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Specifika knappar */
+.loginBtnGoogle {
+  background-color: #4285F4; /* Google blå */
+  color: white;
+}
+
+.loginBtnApple {
+  background-color: black;
+  color: white;
+}
+
+.loginBtnEmail {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Hover-effekter för knappar */
+.loginBtnGoogle:hover,
+.loginBtnApple:hover,
+.loginBtnEmail:hover {
+  opacity: 0.9;
+}
+
+/* Anpassning för större skärmar */
+@media (min-width: 768px) {
+  .startContainer {
+      padding: 40px;
+  }
+
+  .loginBtnEmail,
+  .loginBtnApple,
+  .loginBtnGoogle {
+      margin: 15px 0; /* Ger mer avstånd mellan knappar på större skärmar */
+      font-size: 18px; /* Gör texten något större */
+  }
+}
