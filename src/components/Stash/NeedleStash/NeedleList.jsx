@@ -7,7 +7,7 @@ const NeedleList = () => {
   const [needleList, setNeedleList] = useState(needleData);
 
   return (
-    <div>
+    <div className={styles.listWrapper}>
       <ul className={styles.listContainer}>
         {needleList.map((needle) => (
           <li className={styles.stashList} key={needle.id}>

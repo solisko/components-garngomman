@@ -13,7 +13,7 @@ const StashList = () => {
   ]);
 
   return (
-    <div>
+    <div className={styles.listWrapper}>
       <ul className={styles.listContainer}>
         {stashList.map((item, idx) => (
           <li className={styles.stashList} key={idx}>
