@@ -1,23 +1,26 @@
-/* General styles for all devices */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.header {
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+.titleInspo {
     text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .search-container {
     display: flex;
     justify-content: left;
-    align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #333;
 }
 
 .search-bar input {
@@ -27,6 +30,7 @@
     border: 1px solid #ddd;
     font-size: 16px;
     transition: box-shadow 0.3s ease;
+    margin-bottom: 10px;
 }
 
 .search-bar input:focus {
@@ -34,7 +38,8 @@
     outline: none;
 }
 
-.search-btn button {
+.search-btn button,
+.loadMore-btn button {
     padding: 10px 20px;
     margin-left: 10px;
     border: none;
@@ -45,23 +50,26 @@
     cursor: pointer;
 }
 
-.search-btn button:hover {
+.search-btn:hover,
+.loadMore-btn:hover {
     opacity: 0.8;
 }
 
-/* Feed grid layout */
 .feed {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 60px;
+   
 }
 
 .feed-item {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -73,13 +81,13 @@
 .feed-item img {
     max-width: 100%;
     border-radius: 10px;
-    margin-bottom: 15px;
 }
 
 .feed-item h3 {
-    font-size: 18px;
+    font-size: 20px;
     color: #333;
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .feed-item p {
@@ -87,15 +95,59 @@
     color: #666;
 }
 
-/* Adjusting layout for smaller devices */
-@media (max-width: 768px) {
+.avatarUser {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.username {
+    font-size: 18px; 
+    color: #333; 
+
+}
+
+
+/* Responsive styling for mobile (414px width and 896px height) */
+@media only screen and (max-width: 414px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .header {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .search-bar input {
+        width: 100%; /* Made input smaller */
+        padding: 8px; /* Reduced padding */
+        font-size: 12px; /* Reduced font size */
+    }
+
+    .search-btn button,
+    .loadMore-btn button {
+        font-size: 12px; /* Made the button font smaller */
+        padding: 8px; /* Reduced button padding */
+        display: none;
+    }
+
     .feed {
-        grid-template-columns: repeat(3, 1fr); /* Still 3 columns but smaller */
+        grid-template-columns: repeat(3, 1fr); /* Keep three columns */
         gap: 10px;
     }
 
     .feed-item {
-        padding: 10px; /* Reduced padding */
+        padding: 10px;
     }
 
     .feed-item h3 {
@@ -104,24 +156,5 @@
 
     .feed-item p {
         font-size: 12px;
-    }
-}
-
-@media (max-width: 480px) {
-    .feed {
-        grid-template-columns: repeat(3, 1fr); /* 3 smaller columns */
-        gap: 5px;
-    }
-
-    .feed-item {
-        padding: 8px; /* Smaller padding */
-    }
-
-    .feed-item h3 {
-        font-size: 14px;
-    }
-
-    .feed-item p {
-        font-size: 11px;
     }
 }
