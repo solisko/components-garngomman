@@ -1,7 +1,7 @@
 import NameInput from "./NameInput";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewNeedle/NameInput",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewNeedle/NameInput",
   component: NameInput,
 };
 

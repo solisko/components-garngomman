@@ -1,7 +1,7 @@
 import AdNewNeedle from "./AdNewNeedle";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewNeedle",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewNeedle",
   component: AdNewNeedle,
 };
 

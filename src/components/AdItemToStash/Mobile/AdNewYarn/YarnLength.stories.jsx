@@ -1,7 +1,7 @@
 import YarnLength from "./YarnLength";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewYarn/YarnLength",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewYarn/YarnLength",
   component: YarnLength,
 };
 

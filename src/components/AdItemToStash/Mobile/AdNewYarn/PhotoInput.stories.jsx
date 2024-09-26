@@ -1,7 +1,7 @@
 import PhotoInput from "./PhotoInput";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewYarn/PhotoInput",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewYarn/PhotoInput",
   component: PhotoInput,
 };
 

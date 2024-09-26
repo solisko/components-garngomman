@@ -1,7 +1,7 @@
 import DescriptionTextarea from "./DescriptionTextarea";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewAccesory/DescriptionTextarea",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewAccesory/DescriptionTextarea",
   component: DescriptionTextarea,
 };
 

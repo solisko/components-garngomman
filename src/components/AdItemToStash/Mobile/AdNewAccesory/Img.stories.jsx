@@ -1,7 +1,7 @@
 import Img from "./Img";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewNeedle/Img",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewAccesory/Img",
   component: Img,
 };
 

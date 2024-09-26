@@ -1,7 +1,7 @@
 import YarnMaterial from "./YarnMaterial";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewYarn/YarnMaterial",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewYarn/YarnMaterial",
   component: YarnMaterial,
 };
 

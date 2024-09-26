@@ -1,7 +1,7 @@
 import AdNewYarn from "./AdNewYarn";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewYarn/AdNewYarn",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewYarn/AdNewYarn",
   component: AdNewYarn,
 };
 

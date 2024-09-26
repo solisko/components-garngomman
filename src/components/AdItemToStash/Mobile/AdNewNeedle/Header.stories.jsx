@@ -1,7 +1,7 @@
 import Header from "./Header";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewYarn/Header",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewNeedle/Header",
   component: Header,
 };
 

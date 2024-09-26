@@ -1,7 +1,7 @@
 import NeedleDiameter from "./NeedleDiameter";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewNeedle/NeedleDiameter",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewNeedle/NeedleDiameter",
   component: NeedleDiameter,
 };
 

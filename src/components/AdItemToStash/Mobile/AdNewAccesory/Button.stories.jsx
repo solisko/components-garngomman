@@ -1,7 +1,7 @@
 import Button from "./Button";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewAccesory/Button",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewAccesory/Button",
   component: Button,
 };
 

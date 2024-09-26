@@ -1,7 +1,7 @@
 import YarnWeight from "./YarnWeight";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewYarn/YarnWeight",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewYarn/YarnWeight",
   component: YarnWeight,
 };
 

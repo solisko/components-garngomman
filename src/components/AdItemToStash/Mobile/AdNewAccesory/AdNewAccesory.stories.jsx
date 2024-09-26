@@ -1,7 +1,7 @@
 import AdNewAccesory from "./AdNewAccesory";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/AdNewAccesory/AdNewAccesory",
+  title: "COMPONENTS/AdItemToStash/Mobile/AdNewAccesory/AdNewAccesory",
   component: AdNewAccesory,
 };
 
