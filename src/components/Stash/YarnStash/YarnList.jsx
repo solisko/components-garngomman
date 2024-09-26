@@ -7,7 +7,7 @@ const YarnList = () => {
   const [yarnList, setYarnList] = useState(yarnData);
 
   return (
-    <div>
+    <div className={styles.listWrapper}>
       <ul className={styles.listContainer}>
         {yarnList.map((yarn) => (
           <li className={styles.stashList} key={yarn.id}>

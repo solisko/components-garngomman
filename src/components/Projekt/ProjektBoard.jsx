@@ -1,11 +1,12 @@
 import React from "react";
-import styles from "./Projekt.module.css"
+import styles from "./Projekt.module.css";
+import EmptyBoard from "./EmptyBoard";
 
 const ProjektBoard = () => {
   return (
     <div className={styles.projektContainer}>
-        <div>Empty projekt</div>
+      <EmptyBoard />
     </div>
-  )
-}
-export default ProjektBoard
+  );
+};
+export default ProjektBoard;

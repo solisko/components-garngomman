@@ -7,7 +7,7 @@ const AccesoryList = () => {
   const [accesoryList, setAccesoryList] = useState(accesoryData);
 
   return (
-    <div>
+    <div className={styles.listWrapper}>
       <ul className={styles.listContainer}>
         {accesoryList.map((accesory) => (
           <li className={styles.stashList} key={accesory.id}>
