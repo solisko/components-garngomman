@@ -8,8 +8,6 @@ import Navbar from '../Navbar/Navbar';
 import AvatarUser from './AvatarUser';
 import LoadMoreBtn from './LoadMoreBtn';
 
-
-
 const username = "Person Persson"; 
 const avatarUrl = "https://i.pravatar.cc"; 
 
