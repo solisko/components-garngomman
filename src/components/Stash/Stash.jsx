@@ -4,8 +4,13 @@ import StashFlikar from "./StashFlikar";
 import StashSearch from "./StashSearch";
 import StashBtn from "./StashBtn";
 import StashList from "./StashList";
+import yarnData from "./yarndata.json";
+import needleData from "./needleData.json";
+import accesoryData from "./accesoryData.json";
 
 const Stash = () => {
+  const stashList = [...yarnData, ...needleData, ...accesoryData];
+
   return (
     <div>
       <StashFlikar />
@@ -14,7 +19,7 @@ const Stash = () => {
           <StashSearch />
           <StashBtn />
         </div>
-        {/* <StashList /> */}
+        <StashList stashList={stashList} />
       </div>
     </div>
   );
