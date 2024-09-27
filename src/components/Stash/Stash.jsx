@@ -14,7 +14,7 @@ const Stash = () => {
           <StashSearch />
           <StashBtn />
         </div>
-        <StashList />
+        {/* <StashList /> */}
       </div>
     </div>
   );
