@@ -13,7 +13,7 @@ import YarnThickness from "./YarnThickness";
 
 const AdNewYarnDesktop = () => {
   return (
-    <div className={style.adNewAccesoryContainer}>
+    <div className={style.adNewYarnContainer}>
       <div className={style.titleMainContainer}>
         <Title />
       </div>
