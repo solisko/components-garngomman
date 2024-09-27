@@ -2,12 +2,12 @@ import React from "react";
 import style from "./AdNewYarnDesktop.module.css";
 import placeholderImg from "./placeholderImg.png";
 
-const Img = ({ photoInputDesktop }) => {
+const Img = ({ yarnPhotoInput }) => {
   return (
     <div classname={style.imgContainer}>
       <img
-        src={photoInputDesktop ? photoInputDesktop : placeholderImg}
-        alt=""
+        src={yarnPhotoInput ? yarnPhotoInput : placeholderImg}
+        alt="Bild på nål"
         className={style.imgOfAccesory}
       />
     </div>
