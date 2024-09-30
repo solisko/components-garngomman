@@ -1,0 +1,51 @@
+
+.AdressContainer, .CityContainer, .EmailContainer, .FirstNameContainer, .LastNameContainer, .PhoneNumberContainer, .ZipCodeContainer {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Form-styling */
+.AdressForm, .CityForm, .EmailForm, .FirstNameForm, .LastNameForm, .PhoneNumberForm, .ZipCodeForm {
+    width: 100%;
+}
+
+/* Input-styling för alla fält */
+.AdressInput, .CityInput, .EmailInput, .FirstNameInput, .LastNameInput, .PhoneNumberInput, .ZipCodeInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.AdressInput:focus, .CityInput:focus, .EmailInput:focus, .FirstNameInput:focus, .LastNameInput:focus, .PhoneNumberInput:focus, .ZipCodeInput:focus {
+    outline: none;
+    border-color: #007bff; /* Gör kanten blå vid fokus */
+}
+
+/* Specifik styling för spar-knappen */
+.PersonSetButtonContainer {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin-top: 20px;
+}
+
+.PersonSetButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.PersonSetButton:hover {
+    background-color: #0056b3; /* Mörkare blå färg vid hover */
+}
