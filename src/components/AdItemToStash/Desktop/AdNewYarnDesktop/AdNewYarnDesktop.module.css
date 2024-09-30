@@ -1,0 +1,139 @@
+/* Main container */
+.adNewYarnContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f5f5f5; 
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 50%; 
+    /* margin: auto; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .titleMainContainer{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .titleAdToStash {
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .imgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .imgOfAccesory {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .photoInputContainer {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .imageInput {
+    margin-top: 15px;
+    width: 93%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+  }
+  
+  .nameInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .yarnMeasurementsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .yarnLengthInput,
+  .yarnWeightInput,
+  .yarnThicknessInput {
+    width: calc(33% - 10px); 
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Material Input */
+  .yarnMaterialInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .descriptionContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Description Textarea */
+  .textareaAdToStash {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .buttonAdToStash {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttonAdToStash:hover {
+    background-color: #333;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0}
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
