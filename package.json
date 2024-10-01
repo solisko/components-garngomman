@@ -1,8 +1,11 @@
 {
   "name": "@solisko/components-garngomman",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.2",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "rollup -c",

@@ -1,143 +1,147 @@
 .loginContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .loginUserContainer,
-  .loginPasswordContainer {
-    margin: 10px 0;
-    width: 100%;
-  }
-  
-  .loginUserInput,
-  .loginPasswordInput {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .loginNextButtonContainer {
-    margin-top: 20px;
-    width: 100%;
-  }
-  
-  .loginNextButton {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .loginNextButton:hover {
-    background-color: #0056b3;
-  }
-  
-  form {
-    width: 100%;
-  }
-  
-  /* För mindre skärmar */
-  @media (max-width: 600px) {
-    .loginContainer {
-      width: 100%;
-      padding: 15px;
-    }
-  
-    .loginNextButton {
-      padding: 10px;
-    }
-  
-    .loginUserInput,
-    .loginPasswordInput {
-      padding: 10px;
-    }
-  }
-
-
-  
-  /* Mobile-first styling */
-.startContainer {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrerar horisontellt */
-  justify-content: center; /* Centrerar vertikalt */
-  min-height: 100vh; /* Fyller hela höjden på skärmen */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
   padding: 20px;
-  box-sizing: border-box; /* Ser till att padding inkluderas i elementets bredd */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginUserContainer,
+.loginPasswordContainer {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.loginUserInput,
+.loginPasswordInput,
+.emailInput {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.loginNextButtonContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.loginNextButton,
+.loginBtnEmail, 
+.loginBtnApple, 
+.loginBtnGoogle {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #aeaeae;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginNextButton:hover {
+  background-color: #6b6b6b;
+}
+
+form {
+  width: 100%;
+}
+
+/* För mindre skärmar */
+@media (max-width: 600px) {
+  .loginContainer {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .loginNextButton {
+    padding: 10px;
+  }
+
+  .loginUserInput,
+  .loginPasswordInput {
+    padding: 10px;
+  }
+}
+
+
+
+/* Mobile-first styling */
+.startContainer {
+display: flex;
+flex-direction: column;
+align-items: center; /* Centrerar horisontellt */
+justify-content: center; /* Centrerar vertikalt */
+min-height: 100vh; /* Fyller hela höjden på skärmen */
+padding: 20px;
+box-sizing: border-box; /* Ser till att padding inkluderas i elementets bredd */
 }
 
 .logo1Container {
-  margin-bottom: 20px; /* Avstånd mellan logotypen och knapparna */
+margin-bottom: 20px; /* Avstånd mellan logotypen och knapparna */
 }
 
 .loginBtnEmailContainer,
 .loginBtnAppleContainer,
 .loginBtnGoogleContainer {
-  width: 100%;
-  max-width: 300px; /* Gör knapparna max 300px breda */
-  margin: 10px 0;
+width: 100%;
+max-width: 300px; /* Gör knapparna max 300px breda */
+margin: 10px 0;
 }
 
 .loginBtnEmail, 
 .loginBtnApple, 
 .loginBtnGoogle {
-  width: 100%; /* Knappar tar hela bredden av sin container */
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
+width: 100%; /* Knappar tar hela bredden av sin container */
+padding: 10px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
 }
 
 /* Specifika knappar */
 .loginBtnGoogle {
-  background-color: #4285F4; /* Google blå */
-  color: white;
+background-color: #aeaeae;
+color: white;
 }
 
 .loginBtnApple {
-  background-color: black;
-  color: white;
+background-color: #aeaeae;
+color: white;
 }
 
 .loginBtnEmail {
-  background-color: #f0f0f0;
-  color: #333;
+background-color: #aeaeae;
+color: white;
 }
 
 /* Hover-effekter för knappar */
 .loginBtnGoogle:hover,
 .loginBtnApple:hover,
 .loginBtnEmail:hover {
-  opacity: 0.9;
+opacity: 0.9;
 }
 
 /* Anpassning för större skärmar */
 @media (min-width: 768px) {
-  .startContainer {
-      padding: 40px;
-  }
+.startContainer {
+    padding: 40px;
+}
 
-  .loginBtnEmail,
-  .loginBtnApple,
-  .loginBtnGoogle {
-      margin: 15px 0; /* Ger mer avstånd mellan knappar på större skärmar */
-      font-size: 18px; /* Gör texten något större */
-  }
+.loginBtnEmail,
+.loginBtnApple,
+.loginBtnGoogle {
+    margin: 15px 0; /* Ger mer avstånd mellan knappar på större skärmar */
+    font-size: 18px; /* Gör texten något större */
+}
 }
