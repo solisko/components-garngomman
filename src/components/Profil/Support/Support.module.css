@@ -1,0 +1,97 @@
+.faqContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+  }
+  
+  /* Stilar för frågorna */
+  .question {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .question:hover {
+    background-color: #d4d4d4;
+  }
+  
+  /* Stilar för svaren */
+  .answer {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: max-height 0.2s ease-out;
+  }
+
+  /* Styling för ContactInfo-komponenten */
+.ContactContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ContactContainer h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ContactContainer p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Styling för SearchInput-komponenten */
+  .SupportSearchContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .SupportSearchForm {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .SupportSearchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling för SearchInputBtn-komponenten */
+  .SupportBtnContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .SupportButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #f72ca2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SupportButton:hover {
+    background-color: #f835ad;
+  }
+  
