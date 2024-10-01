@@ -7,7 +7,7 @@ const NeedleList = ({ needleList }) => {
     <div className={styles.listWrapper}>
       {needleList.length === 0 ? (
         <p className={styles.emptyMessage}>
-          Du har inga tillbehör i din gömma. <br />
+          Du har inga nålar i din gömma. <br />
           klicka på “+” för att börja lägga till.
         </p>
       ) : (
