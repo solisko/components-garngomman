@@ -66,5 +66,8 @@
     "dist",
     "assets/fonts",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "@storybook/addon-measure": "^8.3.4"
+  }
 }
