@@ -5,4 +5,14 @@ export default {
   component: StashFlikar,
 };
 
-export const Default = {};
+export const Default = {
+  args: {
+    title: "Click me!",
+  },
+};
+
+export const NoTitle = {
+  args: {
+    title: "No title",
+  },
+};

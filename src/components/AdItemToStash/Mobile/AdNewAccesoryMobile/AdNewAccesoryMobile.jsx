@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./AdNewAccesoryMobile.module.css";
+import style from "./AdNewAccesoryDesktop.module.css";
 import Header from "./Header";
 import PhotoInput from "./PhotoInput";
 import DescriptionTextarea from "./DescriptionTextarea";
@@ -7,7 +7,7 @@ import Button from "./Button";
 import Img from "./Img";
 import NameInput from "./NameInput";
 
-const AdNewAccesoryMobile = () => {
+const AdNewAccesoryDesktop = () => {
   const [accesoryNameInput, setAccesoryNameInput] = useState(null);
   const [accesoryPhotoInput, setAccesoryPhotoInput] = useState(null);
   const [accesoryDescriptionInput, setAccesoryDescriptionInput] =
@@ -17,10 +17,7 @@ const AdNewAccesoryMobile = () => {
     <div className={style.adNewAccesoryContainer}>
       <Header />
       <Img accesoryPhotoInput={accesoryPhotoInput} />
-      <PhotoInput
-        setAccesoryPhotoInput={setAccesoryPhotoInput}
-        accesoryPhotoInput={accesoryPhotoInput}
-      />
+      <PhotoInput setAccesoryPhotoInput={setAccesoryPhotoInput} />
       <NameInput setAccesoryNameInput={setAccesoryNameInput} />
       <DescriptionTextarea
         setAccesoryDescriptionInput={setAccesoryDescriptionInput}
@@ -30,4 +27,4 @@ const AdNewAccesoryMobile = () => {
   );
 };
 
-export default AdNewAccesoryMobile;
+export default AdNewAccesoryDesktop;
