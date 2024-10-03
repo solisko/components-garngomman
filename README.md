@@ -1,8 +1,8 @@
-Garngömman är en app för dig som älskar att virka!
-Här kan du skapa ett användarkonto och spara dina virk-prylar digitalt på ett och samma ställe.
-Genom detta kan du få tips på olika projekt du kan göra med just dina prylar samt få inspiration från andra.
+Garngömman är en app för dig som älskar att virka!  
+Här kan du skapa ett användarkonto och spara dina virk-prylar digitalt på ett och samma ställe.  
+Genom detta kan du få tips på olika projekt du kan göra med just dina prylar samt få inspiration från andra.  
 
-Komponenterna till vårat skolprojekt "Garngömman". Detta repo innehåller komponenter till våran app.
+Komponenterna till vårat skolprojekt "Garngömman". Detta repo innehåller komponenter till våran app.  
 
 ## Installation
 
@@ -16,8 +16,8 @@ Använd git bash eller liknande verktyg
 
 ## Starta Storybook
 
-För att kunna se alla komponenter och hur dom ser ut använder vi oss av något som heter sotrybook.
-Där lägger vi in våra komponenter och får en preview på hur dom ser ut.
+För att kunna se alla komponenter och hur dom ser ut använder vi oss av något som heter sotrybook.  
+Där lägger vi in våra komponenter och får en preview på hur dom ser ut.  
 För att starta storybook:
 ```
 npm run storybook
@@ -28,7 +28,7 @@ npm run storybook
 ## Publisera ny Version (contributors only)
 
 ==OBS!==
-Vi contributors pushar våran kod till github som vanligt och samlar ihop alla nya komponenter
+Vi contributors pushar våran kod till github som vanligt och samlar ihop alla nya komponenter  
 och uppdateringar till en ny större publish. Så genomför vi den tillsamanns när vi alla är redo.
 
 ```
@@ -40,7 +40,7 @@ och uppdateringar till en ny större publish. Så genomför vi den tillsamanns n
 
 ### Publish
 
-För att publisera en ny version av komponent biblioteket till NPM behöver vi först ändra verison 
+För att publisera en ny version av komponent biblioteket till NPM behöver vi först ändra verison  
 i package.json filen. Vi ändrar versionsnummer till nästkommande siffra. **easypeasy!**  
 vart vi ändrar:  
 ![Change version](https://i.ibb.co/FhC2Zgg/ny-Version-Comps.png "change version")
