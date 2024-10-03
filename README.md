@@ -27,7 +27,7 @@ npm run storybook
 
 ## Publisera ny Version (contributors only)
 
-==OBS!==
+**OBS!**
 Vi contributors pushar våran kod till github som vanligt och samlar ihop alla nya komponenter  
 och uppdateringar till en ny större publish. Så genomför vi den tillsamanns när vi alla är redo.
 
