@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./AdNewYarnMobile.module.css";
-import Button from "./Button";
+import Button from "../Button";
 import Header from "./Header";
 import DescriptionTextarea from "./DescriptionTextarea";
 import Img from "./Img";
@@ -20,7 +20,7 @@ const AdNewYarnMobile = ({
   setYarnThickness,
   setYarnMaterial,
   setYarnDescription,
-  setYarnHandler,
+  adYarnHandler,
 }) => {
   return (
     <div className={style.adNewYarnContainer}>
@@ -35,7 +35,7 @@ const AdNewYarnMobile = ({
       </div>
       <YarnMaterial setYarnMaterial={setYarnMaterial} />
       <DescriptionTextarea setYarnDescription={setYarnDescription} />
-      <Button setYarnHandler={setYarnHandler} />
+      <Button buttonTitle="Lägg till Nål" onClickHandler={adYarnHandler} />
     </div>
   );
 };

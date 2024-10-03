@@ -1,7 +1,7 @@
 import Button from "./Button";
 
 export default {
-  title: "COMPONENTS/AdItemToStash/Mobile/AdNewNeedleMobile/Button",
+  title: "COMPONENTS/AdItemToStash/sharedComps/Button",
   component: Button,
 };
 

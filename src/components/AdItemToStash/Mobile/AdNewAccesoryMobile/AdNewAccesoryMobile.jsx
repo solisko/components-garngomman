@@ -3,7 +3,7 @@ import style from "./AdNewAccesoryMobile.module.css";
 import Header from "./Header";
 import PhotoInput from "./PhotoInput";
 import DescriptionTextarea from "./DescriptionTextarea";
-import Button from "./Button";
+import Button from "../Button";
 import Img from "./Img";
 import NameInput from "./NameInput";
 
@@ -21,7 +21,7 @@ const AdNewAccesoryMobile = ({
       <PhotoInput setAccesoryPhoto={setAccesoryPhoto} />
       <NameInput setAccesoryName={setAccesoryName} />
       <DescriptionTextarea setAccesoryDescription={setAccesoryDescription} />
-      <Button loginHandler={loginHandler} />
+      <Button buttonTitle="Lägg Till Tillbehör" onClickHandler={loginHandler} />
     </div>
   );
 };

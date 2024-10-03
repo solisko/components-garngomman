@@ -6,7 +6,7 @@ import DescriptionTextarea from "./DescriptionTextarea";
 import PhotoInput from "./PhotoInput";
 import NeedleLength from "./NeedleLength";
 import NeedleDiameter from "./NeedleDiameter";
-import Button from "./Button";
+import Button from "../Button";
 import NameInput from "./NameInput";
 
 const AdNewNeedleMobile = ({
@@ -29,7 +29,7 @@ const AdNewNeedleMobile = ({
         <NeedleDiameter setNeedleDiameter={setNeedleDiameter} />
       </div>
       <DescriptionTextarea setNeedleDescription={setNeedleDescription} />
-      <Button adNewNeedleHandler={adNewNeedleHandler} />
+      <Button buttonTitle="Lägg till Nål" onClickHandler={adNewNeedleHandler} />
     </div>
   );
 };
