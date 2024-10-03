@@ -14,7 +14,7 @@ Använd git bash eller liknande verktyg
 3. npm i
 ```
 
-##Starta Storybook
+## Starta Storybook
 
 För att kunna se alla komponenter och hur dom ser ut använder vi oss av något som heter sotrybook.
 Där lägger vi in våra komponenter och får en preview på hur dom ser ut.
@@ -38,12 +38,12 @@ och uppdateringar till en ny större publish. Så genomför vi den tillsamanns n
 4. git push
 ```
 
-###Publish
+### Publish
 
 För att publisera en ny version av komponent biblioteket till NPM behöver vi först ändra verison 
 i package.json filen. Vi ändrar versionsnummer till nästkommande siffra. **easypeasy!** 
 vart vi ändrar:
-![Change version](https://ibb.co/wdjVGMM)
+![Change version](https://i.ibb.co/FhC2Zgg/ny-Version-Comps.png "change version")
 
 Sedan kör vi i git bash:
 
