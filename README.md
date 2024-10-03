@@ -31,10 +31,12 @@ npm run sotrybook
 Vi contributors pushar våran kod till github som vanligt och samlar ihop alla nya komponenter
 och uppdateringar till en ny större publish. Så genomför vi den tillsamanns när vi alla är redo.
 
-> git add .
-> git commit -m "your commit message"
-> git pull
-> git push
+```
+1. git add .
+2. git commit -m "your commit message"
+3. git pull
+4. git push
+```
 
 ###Publish
 
