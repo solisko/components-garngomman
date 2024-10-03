@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Preferences.module.css";
 
-const RadioBtnGroup = ({ label, options, selectedOption, onChange }) => {
+const RadioBtnGroup = ({ label, options = [], selectedOption, onChange }) => {
   return (
     <div className={styles.RadioBtnGroupContainer}>
       <h4 className={styles.RadioBtnLabel}>{label}</h4>
