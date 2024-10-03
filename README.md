@@ -43,7 +43,7 @@ och uppdateringar till en ny större publish. Så genomför vi den tillsamanns n
 För att publisera en ny version av komponent biblioteket till NPM behöver vi först ändra verison 
 i package.json filen. Vi ändrar versionsnummer till nästkommande siffra. **easypeasy!** 
 vart vi ändrar:
-![package version](https://ibb.co/wdjVGMM "Change version")
+![](https://ibb.co/wdjVGMM "Change version")
 
 Sedan kör vi i git bash:
 
