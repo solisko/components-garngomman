@@ -20,7 +20,7 @@ För att kunna se alla komponenter och hur dom ser ut använder vi oss av något
 Där lägger vi in våra komponenter och får en preview på hur dom ser ut.
 För att starta storybook:
 ```
-npm run sotrybook
+npm run storybook
 ```
 
 [storybook](https://storybook.js.org/)
