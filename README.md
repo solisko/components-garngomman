@@ -41,8 +41,8 @@ och uppdateringar till en ny större publish. Så genomför vi den tillsamanns n
 ### Publish
 
 För att publisera en ny version av komponent biblioteket till NPM behöver vi först ändra verison 
-i package.json filen. Vi ändrar versionsnummer till nästkommande siffra. **easypeasy!** 
-vart vi ändrar:
+i package.json filen. Vi ändrar versionsnummer till nästkommande siffra. **easypeasy!**  
+vart vi ändrar:  
 ![Change version](https://i.ibb.co/FhC2Zgg/ny-Version-Comps.png "change version")
 
 Sedan kör vi i git bash:
