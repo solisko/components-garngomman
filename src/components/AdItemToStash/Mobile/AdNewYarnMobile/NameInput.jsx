@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewYarnMobile.module.css";
 
-const NameInput = ({ setYarnNameInput }) => {
+const NameInput = ({ setYarnName }) => {
   const nameInputHandler = (e) => {
-    setYarnNameInput(e.target.value);
+    setYarnName(e.target.value);
   };
 
   return (

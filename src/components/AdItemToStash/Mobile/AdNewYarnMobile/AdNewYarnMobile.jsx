@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./AdNewYarnMobile.module.css";
 import Button from "./Button";
 import Header from "./Header";
@@ -11,30 +11,31 @@ import YarnMaterial from "./YarnMaterial";
 import PhotoInput from "./PhotoInput";
 import NameInput from "./NameInput";
 
-const AdNewYarnMobile = () => {
-  const [yarnPhotoInput, setYarnPhotoInput] = useState(null);
-  const [yarnNameInput, setYarnNameInput] = useState(null);
-  const [yarnLengthInput, setYarnLengthInput] = useState(null);
-  const [yarnWeightInput, setYarnWeightInput] = useState(null);
-  useState(null);
-  const [yarnThicknessInput, setYarnThicknessInput] = useState(null);
-  const [yarnMaterialInput, setYarnMaterialInput] = useState(null);
-  const [yarnDescriptionInput, setYarnDescriptionInput] = useState(null);
-
+const AdNewYarnMobile = ({
+  yarnPhoto,
+  setYarnPhoto,
+  setYarnName,
+  setYarnLength,
+  setYarnWeight,
+  setYarnThickness,
+  setYarnMaterial,
+  setYarnDescription,
+  setYarnHandler,
+}) => {
   return (
     <div className={style.adNewYarnContainer}>
       <Header />
-      <Img yarnPhotoInput={yarnPhotoInput} />
-      <PhotoInput setYarnPhotoInput={setYarnPhotoInput} />
-      <NameInput setYarnNameInput={setYarnNameInput} />
+      <Img yarnPhoto={yarnPhoto} />
+      <PhotoInput setYarnPhoto={setYarnPhoto} />
+      <NameInput setYarnName={setYarnName} />
       <div className={style.yarnMeasurementsContainer}>
-        <YarnLength setYarnLengthInput={setYarnLengthInput} />
-        <YarnWeight setYarnWeightInput={setYarnWeightInput} />
-        <YarnThickness setYarnThicknessInput={setYarnThicknessInput} />
+        <YarnLength setYarnLength={setYarnLength} />
+        <YarnWeight setYarnWeight={setYarnWeight} />
+        <YarnThickness setYarnThickness={setYarnThickness} />
       </div>
-      <YarnMaterial setYarnMaterialInput={setYarnMaterialInput} />
-      <DescriptionTextarea setYarnDescriptionInput={setYarnDescriptionInput} />
-      <Button />
+      <YarnMaterial setYarnMaterial={setYarnMaterial} />
+      <DescriptionTextarea setYarnDescription={setYarnDescription} />
+      <Button setYarnHandler={setYarnHandler} />
     </div>
   );
 };
