@@ -1,19 +1,21 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 import PlusButton from "./PlusButton";
-import MinaProjekt from "./MinaProjekt";
-import Inspo from "./Inspo";
-import MinProfil from "./MinProfil";
-import Community from "./Community";
+import NavButton from "./NavButton";
+import MinaProjektIcon from "./MinaProjektIcon";
+import InspoIcon from "./InspoIcon";
+import CommunityIcon from "./CommunityIcon";
+import MinProfilIcon from "./MinProfilIcon";
 
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <MinaProjekt />
-      <Inspo />
+      <NavButton title="Mina Projekt" icon={<MinaProjektIcon/>}/>
+      <NavButton title="Inspo" icon={<InspoIcon/>}/>
       <PlusButton />
-      <Community />
-      <MinProfil />
+      <NavButton title="Community" icon={<CommunityIcon/>}/>
+      <NavButton title="Min Profil" icon={<MinProfilIcon/>}/>
+
     </div>
   );
 };
