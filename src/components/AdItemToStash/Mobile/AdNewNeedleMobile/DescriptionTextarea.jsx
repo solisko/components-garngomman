@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewNeedleMobile.module.css";
 
-const DescriptionTextarea = ({ setNeedleDescriptionInput }) => {
+const DescriptionTextarea = ({ setNeedleDescription }) => {
   const needleDescriptionHandler = (e) => {
-    setNeedleDescriptionInput(e.target.value);
+    setNeedleDescription(e.target.value);
   };
 
   return (

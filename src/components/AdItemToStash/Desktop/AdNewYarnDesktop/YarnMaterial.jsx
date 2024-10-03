@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewYarnDesktop.module.css";
 
-const YarnMaterial = ({ setYarnMaterialInput }) => {
+const YarnMaterial = ({ setYarnMaterial }) => {
   const yarnMaterialHandler = (e) => {
-    setYarnMaterialInput(e.target.value);
+    setYarnMaterial(e.target.value);
   };
 
   return (

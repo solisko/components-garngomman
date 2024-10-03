@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewNeedleMobile.module.css";
 
-const NameInput = ({ setNeedleNameInput }) => {
+const NameInput = ({ setNeedleName }) => {
   const nameInputHandler = (e) => {
-    setNeedleNameInput(e.target.value);
+    setNeedleName(e.target.value);
   };
 
   return (
