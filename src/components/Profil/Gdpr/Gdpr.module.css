@@ -1,0 +1,30 @@
+.GdprContainer {
+    text-align: center;
+}
+
+.GdprBtnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .GdprButton {
+    background-color: #007BFF; /* Blå bakgrund */
+    color: white; /* Vit text */
+    border: none; /* Ta bort standardram */
+    border-radius: 5px; /* Lätt rundade hörn */
+    padding: 10px 20px; /* Inre avstånd */
+    font-size: 16px; /* Textstorlek */
+    cursor: pointer; /* Pekare på hover */
+    transition: background-color 0.3s ease; /* Mjuk övergång vid hover */
+  }
+  
+  .GdprButton:hover {
+    background-color: #0056b3; /* Mörkare blå vid hover */
+  }
+  
+  .GdprButton:focus {
+    outline: none; /* Ta bort standardfokusring */
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); /* Anpassad fokusring */
+  }
+  

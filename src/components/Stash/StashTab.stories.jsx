@@ -1,8 +1,8 @@
-import StashFlikar from "./StashFlikar";
+import StashTab from "./StashTab";
 
 export default {
-  title: "COMPONENTS/Stash/StashFlikar",
-  component: StashFlikar,
+  title: "COMPONENTS/Stash/StashTab",
+  component: StashTab,
 };
 
 export const Default = {

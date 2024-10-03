@@ -1,7 +1,7 @@
 {
   "name": "@solisko/components-garngomman",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.9",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -66,5 +66,8 @@
     "dist",
     "assets/fonts",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "@storybook/addon-measure": "^8.3.4"
+  }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import yarnData from "../yarndata.json";
 import styles from "../Stash.module.css";
-import StashFlikar from "../StashFlikar";
+import StashTab from "../StashTab";
 import StashSearch from "../StashSearch";
 import StashBtn from "../StashBtn";
 import YarnList from "./YarnList";
@@ -11,7 +11,12 @@ const YarnStash = () => {
 
   return (
     <div>
-      <StashFlikar />
+      <div className={styles.tabBtnContainer}>
+        <StashTab title="Tab 1" />
+        <StashTab title="Tab 2" />
+        <StashTab title="Tab 3" />
+        <StashTab title="Tab 4" />
+      </div>
       <div className={styles.stashContainer}>
         <div className={styles.stashHead}>
           <StashSearch />

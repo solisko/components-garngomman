@@ -12,7 +12,6 @@ Använd git bash eller liknande verktyg
 1. git clone https://github.com/solisko/components-garngomman
 2. cd components-garngomman
 ```
-
-To be continued...
+## Publisera ny Version (contributors only)
 
 **2024 &copy; SENFLR**
