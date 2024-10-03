@@ -18,19 +18,20 @@ body {
 
 .search-container {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-bottom: 0;
-    border-bottom: 1px solid #333;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
 }
 
 .search-bar input {
-    width: 300px;
-    padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
     font-size: 16px;
     transition: box-shadow 0.3s ease;
-    margin-bottom: 10px;
 }
 
 .search-bar input:focus {
@@ -38,21 +39,22 @@ body {
     outline: none;
 }
 
-.search-btn button,
 .loadMore-btn button {
     padding: 10px 20px;
-    margin-left: 10px;
     border: none;
     background-color: #D69C00;
     color: white;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 150px;    
 }
 
-.search-btn:hover,
 .loadMore-btn:hover {
     opacity: 0.8;
+}
+.loadMore-btn:active {
+    opacity: 0.6;
 }
 
 .feed {
@@ -61,7 +63,7 @@ body {
     gap: 20px;
     cursor: pointer;
     border-radius: 10px;
-    margin-bottom: 110px;
+    margin-bottom: 10px;
     background-color: #D9D9D9; 
     padding: 20px; 
 }
@@ -78,6 +80,7 @@ body {
 .feed-item:hover {
     transform: translateY(-5px);
 }
+
 
 .feed-item img {
     max-width: 100%;
@@ -109,7 +112,6 @@ body {
 .username {
     font-size: 18px; 
     color: #333; 
-
 }
 
 
@@ -130,11 +132,9 @@ body {
         font-size: 12px; /* Reduced font size */
     }
 
-    .search-btn button,
     .loadMore-btn button {
         font-size: 12px; /* Made the button font smaller */
         padding: 8px; /* Reduced button padding */
-        display: none;
     }
 
     .feed {

@@ -1,10 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar';
-import SearchBtn from './SearchBtn';
 import Inspo from './Inspo';
 import styles from './Community.module.css';
-import Header from '../Header/Header';
-import Navbar from '../Navbar/Navbar';
 import AvatarUser from './AvatarUser';
 import LoadMoreBtn from './LoadMoreBtn';
 
@@ -15,18 +12,13 @@ const Community = () => {
     return (
         <div>
 
-        <Header />
-        <AvatarUser username={username} avatarUrl={avatarUrl} />
-
             <div className={styles['search-container']}>
                 <div className={styles['search-bar']}>
                     <SearchBar />
                 </div>
-
-                <div className={styles['search-btn']}>
-                    <SearchBtn />
-                </div>
             </div>
+            
+        <AvatarUser username={username} avatarUrl={avatarUrl} />
 
             <p className={styles.titleInspo}>Inspiration Feed</p>
 
@@ -37,11 +29,6 @@ const Community = () => {
             <div className={styles['loadMore-btn']}>
                     <LoadMoreBtn />
                 </div>
-
-
-
-            <Navbar />
-
         </div>
     );
 };
