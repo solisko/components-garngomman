@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewNeedleMobile.module.css";
 
-const NeedleDiameter = ({ setNeedleDiameterInput }) => {
+const NeedleDiameter = ({ setNeedleDiameter }) => {
   const needleDiameterHandler = (e) => {
-    setNeedleDiameterInput(e.target.value);
+    setNeedleDiameter(e.target.value);
   };
 
   return (

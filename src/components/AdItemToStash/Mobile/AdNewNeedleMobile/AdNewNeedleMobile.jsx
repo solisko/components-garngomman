@@ -9,28 +9,27 @@ import NeedleDiameter from "./NeedleDiameter";
 import Button from "./Button";
 import NameInput from "./NameInput";
 
-const AdNewNeedleMobile = () => {
-  const [needlePhotoInput, setNeedlePhotoInput] = useState(null);
-  const [needleNameInput, setNeedleNameInput] = useState(null);
-  const [needleLengthInput, setNeedleLengthInput] = useState(null);
-  const [needleDiameterInput, setNeedleDiameterInput] = useState(null);
-  useState(null);
-  const [needleDescriptionInput, setNeedleDescriptionInput] = useState(null);
-
+const AdNewNeedleMobile = ({
+  needlePhoto,
+  setNeedlePhoto,
+  setNeedleName,
+  setNeedleLength,
+  setNeedleDiameter,
+  setNeedleDescription,
+  adNewNeedleHandler,
+}) => {
   return (
     <div className={style.adNewNeedleContainer}>
       <Header />
-      <Img needlePhotoInput={needlePhotoInput} />
-      <PhotoInput setNeedlePhotoInput={setNeedlePhotoInput} />
-      <NameInput setNeedleNameInput={setNeedleNameInput} />
+      <Img needlePhoto={needlePhoto} />
+      <PhotoInput setNeedlePhoto={setNeedlePhoto} />
+      <NameInput setNeedleName={setNeedleName} />
       <div className={style.needleMeasurements}>
-        <NeedleLength setNeedleLengthInput={setNeedleLengthInput} />
-        <NeedleDiameter setNeedleDiameterInput={setNeedleDiameterInput} />
+        <NeedleLength setNeedleLength={setNeedleLength} />
+        <NeedleDiameter setNeedleDiameter={setNeedleDiameter} />
       </div>
-      <DescriptionTextarea
-        setNeedleDescriptionInput={setNeedleDescriptionInput}
-      />
-      <Button />
+      <DescriptionTextarea setNeedleDescription={setNeedleDescription} />
+      <Button adNewNeedleHandler={adNewNeedleHandler} />
     </div>
   );
 };

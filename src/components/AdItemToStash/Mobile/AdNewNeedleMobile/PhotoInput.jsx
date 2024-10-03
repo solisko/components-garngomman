@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewNeedleMobile.module.css";
 
-const PhotoInput = ({ setNeedlePhotoInput }) => {
+const PhotoInput = ({ setNeedlePhoto }) => {
   const uploadImageHandler = (e) => {
-    setNeedlePhotoInput(URL.createObjectURL(e.target.files[0]));
+    setNeedlePhoto(URL.createObjectURL(e.target.files[0]));
   };
 
   return (
