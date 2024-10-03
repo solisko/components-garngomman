@@ -2,7 +2,7 @@
 import Inspo from './Inspo';
 
 export default {
-    title: 'COMPONENTS/Inspo',
+    title: 'COMPONENTS/Community/Inspo',
     component: Inspo,
 }
 

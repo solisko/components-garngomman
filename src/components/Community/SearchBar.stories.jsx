@@ -2,7 +2,7 @@
 import SearchBar from './SearchBar';
 
 export default {
-    title: 'COMPONENTS/SearchBar',
+    title: 'COMPONENTS/Community/SearchBar',
     component: SearchBar,
 }
 

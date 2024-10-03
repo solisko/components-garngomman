@@ -20,17 +20,18 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
-    border-bottom: 1px solid #333;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
 }
 
 .search-bar input {
-    width: 300px;
-    padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
     font-size: 16px;
     transition: box-shadow 0.3s ease;
-    margin-bottom: 10px;
 }
 
 .search-bar input:focus {
@@ -111,7 +112,6 @@ body {
 .username {
     font-size: 18px; 
     color: #333; 
-
 }
 
 

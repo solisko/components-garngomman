@@ -2,7 +2,7 @@
 import LoadMoreBtn from './LoadMoreBtn';
 
 export default {
-    title: 'COMPONENTS/LoadMoreBtn',
+    title: 'COMPONENTS/Community/LoadMoreBtn',
     component: LoadMoreBtn,
 }
 

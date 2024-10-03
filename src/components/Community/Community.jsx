@@ -11,6 +11,7 @@ const avatarUrl = "https://i.pravatar.cc";
 const Community = () => {
     return (
         <div>
+
             <div className={styles['search-container']}>
                 <div className={styles['search-bar']}>
                     <SearchBar />

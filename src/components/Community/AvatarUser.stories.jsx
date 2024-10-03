@@ -2,7 +2,7 @@
 import AvatarUser from './AvatarUser';
 
 export default {
-    title: 'COMPONENTS/AvatarUser',
+    title: 'COMPONENTS/Community/AvatarUser',
     component: AvatarUser,
 }
 
