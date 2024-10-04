@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewAccesoryDesktop.module.css";
 
-const NameInput = ({ setAccesoryNameInput }) => {
+const NameInput = ({ setAccesoryName }) => {
   const nameInputHandler = (e) => {
-    setAccesoryNameInput(e.target.value);
+    setAccesoryName(e.target.value);
   };
 
   return (

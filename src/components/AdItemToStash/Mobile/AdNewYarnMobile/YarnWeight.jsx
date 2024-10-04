@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewYarnMobile.module.css";
 
-const YarnWeight = ({ setYarnWeightInput }) => {
+const YarnWeight = ({ setYarnWeight }) => {
   const yarnWeightHandler = (e) => {
-    setYarnWeightInput(e.target.value);
+    setYarnWeight(e.target.value);
   };
 
   return (

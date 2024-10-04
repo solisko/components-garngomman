@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewYarnDesktop.module.css";
 
-const DescriptionTextarea = ({ setYarnDescriptionInput }) => {
+const DescriptionTextarea = ({ setYarnDescription }) => {
   const yarnDescriptionHandler = (e) => {
-    setYarnDescriptionInput(e.target.value);
+    setYarnDescription(e.target.value);
   };
 
   return (

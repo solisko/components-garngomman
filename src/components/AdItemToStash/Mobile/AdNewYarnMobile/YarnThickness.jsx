@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewYarnMobile.module.css";
 
-const YarnThickness = ({ setYarnThicknessInput }) => {
+const YarnThickness = ({ setYarnThickness }) => {
   const yarnThicknessHandler = (e) => {
-    setYarnThicknessInput(e.target.value);
+    setYarnThickness(e.target.value);
   };
 
   return (

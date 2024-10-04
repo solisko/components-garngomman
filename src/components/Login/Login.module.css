@@ -1,13 +1,17 @@
+/* Mobilversionen används för alla skärmar */
 .loginContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Sätt en fast max-bredd så att den ser ut som på mobilen */
+  width: 100%; /* Hela bredden på skärmen */
+  box-sizing: border-box;
 }
 
 .loginUserContainer,
@@ -21,6 +25,7 @@
 .emailInput {
   width: 100%;
   padding: 12px;
+  max-width: 400px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -30,6 +35,7 @@
 .loginNextButtonContainer {
   margin-top: 20px;
   width: 100%;
+  max-width: 400px;
 }
 
 .loginNextButton,
@@ -55,93 +61,50 @@ form {
   width: 100%;
 }
 
-/* För mindre skärmar */
-@media (max-width: 600px) {
-  .loginContainer {
-    width: 100%;
-    padding: 15px;
-  }
-
-  .loginNextButton {
-    padding: 10px;
-  }
-
-  .loginUserInput,
-  .loginPasswordInput {
-    padding: 10px;
-  }
-}
-
-
-
-/* Mobile-first styling */
-.startContainer {
-display: flex;
-flex-direction: column;
-align-items: center; /* Centrerar horisontellt */
-justify-content: center; /* Centrerar vertikalt */
-min-height: 100vh; /* Fyller hela höjden på skärmen */
-padding: 20px;
-box-sizing: border-box; /* Ser till att padding inkluderas i elementets bredd */
-}
-
-.logo1Container {
-margin-bottom: 20px; /* Avstånd mellan logotypen och knapparna */
-}
-
-.loginBtnEmailContainer,
-.loginBtnAppleContainer,
-.loginBtnGoogleContainer {
-width: 100%;
-max-width: 300px; /* Gör knapparna max 300px breda */
-margin: 10px 0;
-}
-
-.loginBtnEmail, 
-.loginBtnApple, 
-.loginBtnGoogle {
-width: 100%; /* Knappar tar hela bredden av sin container */
-padding: 10px;
-border: none;
-border-radius: 5px;
-font-size: 16px;
-cursor: pointer;
-text-align: center;
-}
-
 /* Specifika knappar */
-.loginBtnGoogle {
-background-color: #aeaeae;
-color: white;
-}
-
-.loginBtnApple {
-background-color: #aeaeae;
-color: white;
-}
-
+.loginBtnGoogle, 
+.loginBtnApple, 
 .loginBtnEmail {
-background-color: #aeaeae;
-color: white;
+  background-color: #aeaeae;
+  color: white;
 }
 
 /* Hover-effekter för knappar */
 .loginBtnGoogle:hover,
 .loginBtnApple:hover,
 .loginBtnEmail:hover {
-opacity: 0.9;
+  opacity: 0.9;
 }
 
-/* Anpassning för större skärmar */
-@media (min-width: 768px) {
+/* Förhindra att layouten ändras på större skärmar */
 .startContainer {
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 400px; /* Sätt en fast max-bredd även här */
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.loginBtnEmail,
-.loginBtnApple,
-.loginBtnGoogle {
-    margin: 15px 0; /* Ger mer avstånd mellan knappar på större skärmar */
-    font-size: 18px; /* Gör texten något större */
+.loginBtnEmailContainer,
+.loginBtnAppleContainer,
+.loginBtnGoogleContainer {
+  width: 100%;
+  margin: 10px 0;
 }
+
+.loginBtnEmail, 
+.loginBtnApple, 
+.loginBtnGoogle {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  max-width: 400px;
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewAccesoryMobile.module.css";
 
-const PhotoInput = ({ setAccesoryPhotoInput }) => {
+const PhotoInput = ({ setAccesoryPhoto }) => {
   const uploadImageHandler = (e) => {
-    setAccesoryPhotoInput(URL.createObjectURL(e.target.files[0]));
+    setAccesoryPhoto(URL.createObjectURL(e.target.files[0]));
   };
 
   return (

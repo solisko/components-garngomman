@@ -1,0 +1,139 @@
+.PreferencesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.PreferencesHeading {
+    text-align: center;
+}
+
+/* General styling for each section in the preferences (Radio Button Groups) */
+.LanguageContainer {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the radio button group */
+.RadioBtnGroupContainer {
+    display: flex;
+    flex-direction: column; /* Keep radio buttons stacked in smaller screens */
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Label for the entire radio button group */
+.RadioBtnLabel {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Styling for the individual radio buttons and their labels */
+.RadioBtns {
+    display: flex; /* Arrange radio buttons and labels in a row */
+    align-items: center; /* Vertically align radio buttons and labels */
+    gap: 5px; /* Space between radio button and its label text */
+}
+
+/* Container for each option pair (radio button + text) */
+.OptionPair {
+    display: flex; /* Keep each option pair in a row */
+}
+
+/* Container for all option pairs */
+.OptionPairsContainer {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    display: flex; /* Flex container for horizontal layout */
+    gap: 250px; /* Space between each pair (radio button + text) */
+}
+
+/* Adjust the radio button size and spacing */
+.RadioBtns input {
+    transform: scale(1.2); /* Optional: increase radio button size */
+}
+
+/* Styling for the language selector */
+.LanguageContainer select {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.LanguageHeading {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Styling for the save button */
+.PreferenceBtnContainer {
+    text-align: center;
+}
+
+.PreferenceBtn {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.PreferenceBtn:hover {
+    background-color: #45a049;
+}
+
+/* Larger screens (tablet and desktop) */
+@media (min-width: 768px) {
+    .PreferencesContainer {
+        max-width: 80%;
+    }
+
+    /* Flex layout for sections, so they sit side by side on larger screens */
+    .PreferencesContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .RadioBtnGroupContainer,
+    .LanguageContainer,
+    .PreferenceBtnContainer {
+        flex: 1 1 calc(50% - 20px); /* Makes sections 50% of the container width, with space in between */
+    }
+
+    .PreferenceBtnContainer {
+        flex-basis: 100%; /* Make the button full width */
+        margin-top: 20px;
+    }
+}
+
+/* Even larger screens (desktop and above) */
+@media (min-width: 1024px) {
+    .PreferencesContainer {
+        max-width: 60%;
+    }
+
+    .RadioBtnGroupContainer,
+    .LanguageContainer {
+        flex-basis: calc(50% - 10px); /* Further fine-tuning */
+    }
+}

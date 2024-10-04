@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewYarnDesktop.module.css";
 
-const YarnLength = ({ setYarnLengthInput }) => {
+const YarnLength = ({ setYarnLength }) => {
   const yarnLengthHandler = (e) => {
-    setYarnLengthInput(e.target.value);
+    setYarnLength(e.target.value);
   };
 
   return (
