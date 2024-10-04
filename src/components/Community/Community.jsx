@@ -1,7 +1,7 @@
 import React from 'react';
+import styles from './Community.module.css';
 import SearchBar from './SearchBar';
 import Inspo from './Inspo';
-import styles from './Community.module.css';
 import AvatarUser from './AvatarUser';
 import LoadMoreBtn from './LoadMoreBtn';
 
@@ -11,7 +11,6 @@ const avatarUrl = "https://i.pravatar.cc";
 const Community = () => {
     return (
         <div>
-
             <div className={styles['search-container']}>
                 <div className={styles['search-bar']}>
                     <SearchBar />
