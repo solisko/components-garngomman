@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./AdNewAccesoryDesktop.module.css";
 
-const DescriptionTextarea = ({ setAccesoryDescriptionInput }) => {
+const DescriptionTextarea = ({ setAccesoryDescription }) => {
   const descriptionInputStateSetter = (e) => {
-    setAccesoryDescriptionInput(e.target.value);
+    setAccesoryDescription(e.target.value);
   };
 
   return (

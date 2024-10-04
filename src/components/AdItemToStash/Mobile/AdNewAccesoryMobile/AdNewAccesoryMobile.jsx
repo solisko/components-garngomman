@@ -1,30 +1,29 @@
-import React, { useState } from "react";
-import style from "./AdNewAccesoryDesktop.module.css";
+import React from "react";
+import style from "./AdNewAccesoryMobile.module.css";
 import Header from "./Header";
 import PhotoInput from "./PhotoInput";
 import DescriptionTextarea from "./DescriptionTextarea";
-import Button from "./Button";
+import Button from "../Button";
 import Img from "./Img";
 import NameInput from "./NameInput";
 
-const AdNewAccesoryDesktop = () => {
-  const [accesoryNameInput, setAccesoryNameInput] = useState(null);
-  const [accesoryPhotoInput, setAccesoryPhotoInput] = useState(null);
-  const [accesoryDescriptionInput, setAccesoryDescriptionInput] =
-    useState(null);
-
+const AdNewAccesoryMobile = ({
+  setAccesoryName,
+  accesoryPhoto,
+  setAccesoryPhoto,
+  setAccesoryDescription,
+  loginHandler,
+}) => {
   return (
     <div className={style.adNewAccesoryContainer}>
       <Header />
-      <Img accesoryPhotoInput={accesoryPhotoInput} />
-      <PhotoInput setAccesoryPhotoInput={setAccesoryPhotoInput} />
-      <NameInput setAccesoryNameInput={setAccesoryNameInput} />
-      <DescriptionTextarea
-        setAccesoryDescriptionInput={setAccesoryDescriptionInput}
-      />
-      <Button />
+      <Img accesoryPhoto={accesoryPhoto} />
+      <PhotoInput setAccesoryPhoto={setAccesoryPhoto} />
+      <NameInput setAccesoryName={setAccesoryName} />
+      <DescriptionTextarea setAccesoryDescription={setAccesoryDescription} />
+      <Button buttonTitle="Lägg Till Tillbehör" onClickHandler={loginHandler} />
     </div>
   );
 };
 
-export default AdNewAccesoryDesktop;
+export default AdNewAccesoryMobile;

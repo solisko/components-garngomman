@@ -1,10 +1,12 @@
 import React from "react";
 import style from "./AdNewNeedleDesktop.module.css";
 
-const Button = () => {
+const Button = ({ adNewNeedleHandler }) => {
   return (
     <div className={style.buttonContainer}>
-      <button className={style.buttonAdToStash}>Lägg till Nål</button>
+      <button className={style.buttonAdToStash} onClick={adNewNeedleHandler}>
+        Lägg till Nål
+      </button>
     </div>
   );
 };

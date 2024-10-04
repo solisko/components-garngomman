@@ -1,0 +1,24 @@
+.buttonContainer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+.btnAdToStash {
+    width: 85%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.buttonAdToStash:hover {
+    background-color: #333;
+  }
