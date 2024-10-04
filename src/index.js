@@ -8,6 +8,8 @@ import { AdNewYarnDesktop } from "./components/AdItemToStash/Desktop/AdNewYarnDe
 import { AdNewAccesoryMobile } from "./components/AdItemToStash/Mobile/AdNewAccesoryMobile";
 import { AdNewNeedleMobile } from "./components/AdItemToStash/Mobile/AdNewNeedleMobile";
 import { AdNewYarnMobile } from "./components/AdItemToStash/Mobile/AdNewYarnMobile";
+import { EmailLoginPage } from "./components/Login";
+import { EmailPasswordPage } from "./components/Login"
 
 export {
   Header,
@@ -20,4 +22,7 @@ export {
   AdNewAccesoryMobile,
   AdNewNeedleMobile,
   AdNewYarnMobile,
+  EmailLoginPage,
+  EmailPasswordPage,
+
 };
