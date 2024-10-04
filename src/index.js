@@ -10,6 +10,14 @@ import { AdNewNeedleMobile } from "./components/AdItemToStash/Mobile/AdNewNeedle
 import { AdNewYarnMobile } from "./components/AdItemToStash/Mobile/AdNewYarnMobile";
 import { EmailLoginPage } from "./components/Login";
 import { EmailPasswordPage } from "./components/Login"
+import { Navbar } from "./components/Navbar"
+import { Profil } from "./components/Profil"
+import { Membership } from "./components/Profil/Membership";
+import { accountSettings } from "./components/Profil/accountSettings";
+import { PersonSettings } from "./components/Profil/personSettings";
+import { Support } from "./components/Profil/Support";
+import { Gdpr } from "./components/Profil/Gdpr"
+import { Preferences } from "./components/Profil/Preferences";
 
 export {
   Header,
@@ -24,5 +32,12 @@ export {
   AdNewYarnMobile,
   EmailLoginPage,
   EmailPasswordPage,
-
+  Navbar,
+  Profil,
+  Membership,
+  accountSettings,
+  PersonSettings,
+  Support,
+  Gdpr,
+  Preferences,
 };
