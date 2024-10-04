@@ -1,3 +1,3 @@
-import AdNewNeedleMobile from "./AdNewAccesoryMobile";
+import AdNewAccesoryMobile from "./AdNewAccesoryMobile";
 
-export { AdNewNeedleMobile };
+export { AdNewAccesoryMobile };
