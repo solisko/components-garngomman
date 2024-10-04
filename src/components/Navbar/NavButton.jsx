@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 
-const NavButton = ({ title, icon }) => {
+const NavButton = ({ title, icon, handleClick }) => {
   return (
-    <button className={styles.navItem}>
+    <button onClick={handleClick} className={styles.navItem}>
       <div className={styles.navIcon}>{icon}</div>
       <div className={styles.navTitle}>{title}</div>
     </button>
