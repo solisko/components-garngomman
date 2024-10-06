@@ -35,9 +35,9 @@
     outline: none; 
 }
   
-.tabBtnContainer .tabBtn:active {
-    /* background-color: #a8a8a8; */
-}
+/* .tabBtnContainer .tabBtn:active {
+    background-color: #a8a8a8;
+} */
 
 .newProjectBtn {
     /* background-color: #d3d3d3; */
