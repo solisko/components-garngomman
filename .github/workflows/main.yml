@@ -29,11 +29,8 @@ jobs:
       - name: hello-world
         run: echo "Hello World"
 
-      - name: discord
-        uses: sebastianpopp/discord-action@releases/v2
-        with: 
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          message: ${{ github.actor }} has successfylly published new pkg version.
+      - name: Insstall dependencies
+        run: npm install
 
       - name: Build new pkg version
         run: npm run build
@@ -43,3 +40,11 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
+      - name: discord
+        uses: sebastianpopp/discord-action@releases/v2
+        with: 
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          message: ${{ github.actor }} has successfylly published new pkg version.
+
+
