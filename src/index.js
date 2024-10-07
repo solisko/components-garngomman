@@ -23,6 +23,7 @@ import { YarnList } from "./components/Stash/YarnStash";
 import { NeedleList } from "./components/Stash/NeedleStash";
 import { AccessoryList } from "./components/Stash/AccessoryStash";
 import { Projekt } from "./components/Projekt";
+import { Login } from "./components/Login";
 
 export {
   Header,
@@ -50,4 +51,5 @@ export {
   NeedleList,
   AccessoryList,
   Projekt,
+  Login,
 };
