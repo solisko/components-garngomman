@@ -1,4 +1,4 @@
-name: deploy-frontend-to-stage 
+name: publish-component-pkg
 on:
   push:
     branches:
