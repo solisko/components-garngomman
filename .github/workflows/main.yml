@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          registry-url: 'https//registry.npmjs.org/'
+          registry-url: 'https://registry.npmjs.org/'
 
       - uses: actions/checkout@v3
         with:
@@ -25,14 +25,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           diff-search: true
-          
-      - name: hello-world
-        run: echo "Hello World"
 
-      - name: Insstall dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: Build new pkg version
+      - name: Build
         run: npm run build
       
       - name: Publish to NPM
