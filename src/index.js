@@ -13,7 +13,7 @@ import { EmailPasswordPage } from "./components/Login"
 import { Navbar } from "./components/Navbar"
 import { Profil } from "./components/Profil"
 import { Membership } from "./components/Profil/Membership";
-import { accountSettings } from "./components/Profil/accountSettings";
+import { AccountSettings } from "./components/Profil/accountSettings";
 import { PersonSettings } from "./components/Profil/personSettings";
 import { Support } from "./components/Profil/Support";
 import { Gdpr } from "./components/Profil/Gdpr"
@@ -40,7 +40,7 @@ export {
   Navbar,
   Profil,
   Membership,
-  accountSettings,
+  AccountSettings,
   PersonSettings,
   Support,
   Gdpr,
