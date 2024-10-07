@@ -18,6 +18,7 @@ import { PersonSettings } from "./components/Profil/personSettings";
 import { Support } from "./components/Profil/Support";
 import { Gdpr } from "./components/Profil/Gdpr"
 import { Preferences } from "./components/Profil/Preferences";
+import { StashList } from "./components/Stash"
 import { YarnList } from "./components/Stash/YarnStash";
 import { NeedleList } from "./components/Stash/NeedleStash";
 import { AccessoryList } from "./components/Stash/AccessoryStash";
@@ -44,6 +45,7 @@ export {
   Support,
   Gdpr,
   Preferences,
+  StashList,
   YarnList,
   NeedleList,
   AccessoryList,

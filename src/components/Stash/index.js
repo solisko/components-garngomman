@@ -1,3 +1,4 @@
 import Stash from "./Stash";
+import StashList from "./StashList";
 
-export { Stash };
+export { Stash, StashList };
