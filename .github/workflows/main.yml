@@ -33,4 +33,4 @@ jobs:
         uses: sebastianpopp/discord-action@releases/v2
         with: 
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          message: $ {{ github.actor }} has successfylly published new pkg version.
+          message: ${{ github.actor }} has successfylly published new pkg version.
