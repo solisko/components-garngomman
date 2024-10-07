@@ -7,15 +7,18 @@ import InspoIcon from "./InspoIcon";
 import CommunityIcon from "./CommunityIcon";
 import MinProfilIcon from "./MinProfilIcon";
 
-const Navbar = () => {
+const Navbar = ({ handleClick }) => {
   return (
     <div className={styles.navbar}>
-      <NavButton title="Mina Projekt" icon={<MinaProjektIcon/>}/>
-      <NavButton title="Inspo" icon={<InspoIcon/>}/>
+      <NavButton
+        handleClick={handleClick}
+        title="Mina Projekt"
+        icon={<MinaProjektIcon />}
+      />
+      <NavButton title="Inspo" icon={<InspoIcon />} />
       <PlusButton />
-      <NavButton title="Community" icon={<CommunityIcon/>}/>
-      <NavButton title="Min Profil" icon={<MinProfilIcon/>}/>
-
+      <NavButton title="Community" icon={<CommunityIcon />} />
+      <NavButton title="Min Profil" icon={<MinProfilIcon />} />
     </div>
   );
 };
