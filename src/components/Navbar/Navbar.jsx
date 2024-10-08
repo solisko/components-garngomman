@@ -5,7 +5,7 @@ import NavButton from "./NavButton";
 import MinaProjektIcon from "./MinaProjektIcon";
 import CommunityIcon from "./CommunityIcon";
 import MinProfilIcon from "./MinProfilIcon";
-import PatternsIcon from "./PatternsIcon";
+import StashIcon from "./StashIcon";
 
 const Navbar = ({ handleClick, handlePlusClick }) => {
   return (
