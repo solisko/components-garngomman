@@ -21,7 +21,7 @@ import { Preferences } from "./components/Profil/Preferences";
 import { StashList } from "./components/Stash"
 import { YarnList } from "./components/Stash/YarnStash";
 import { NeedleList } from "./components/Stash/NeedleStash";
-import { AccessoryList } from "./components/Stash/AccessoryStash";
+import { AccesoryList } from "./components/Stash/AccessoryStash";
 import { Projekt } from "./components/Projekt";
 import { Login } from "./components/Login";
 
@@ -49,7 +49,7 @@ export {
   StashList,
   YarnList,
   NeedleList,
-  AccessoryList,
+  AccesoryList,
   Projekt,
   Login,
 };
