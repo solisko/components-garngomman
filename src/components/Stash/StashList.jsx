@@ -16,7 +16,7 @@ const StashList = ({ stashList = [] }) => {
   };
 
   return (
-    <div className={styles.listWrapper}>
+    <div className={`${styles.listWrapper} ${listWrapperClassName}`}>
       {stashList.length === 0 ? (
         <p className={styles.emptyMessage}>
           Du har inga garn, nålar eller tillbehör i din gömma. <br />
