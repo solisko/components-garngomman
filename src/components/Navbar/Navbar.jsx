@@ -15,11 +15,7 @@ const Navbar = ({ handleClick, handlePlusClick }) => {
         title="Mina Projekt"
         icon={<MinaProjektIcon />}
       />
-      <NavButton
-        handleClick={handleClick}
-        title="Mönster"
-        icon={<PatternsIcon />}
-      />
+      <NavButton handleClick={handleClick} title="Stash" icon={<StashIcon />} />
       <PlusButton handlePlusClick={handlePlusClick} />
       <NavButton
         handleClick={handleClick}
