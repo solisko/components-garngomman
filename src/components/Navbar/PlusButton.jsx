@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 
-const PlusButton = ({ handleClick }) => {
+const PlusButton = ({ handlePlusClick }) => {
   return (
-    <button onClick={handleClick} className={styles.plusButton}>
+    <button onClick={handlePlusClick} className={styles.plusButton}>
       +
     </button>
   );
