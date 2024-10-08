@@ -7,7 +7,7 @@ import CommunityIcon from "./CommunityIcon";
 import MinProfilIcon from "./MinProfilIcon";
 import PatternsIcon from "./PatternsIcon";
 
-const Navbar = ({ handleClick }) => {
+const Navbar = ({ handleClick, handlePlusClick }) => {
   return (
     <div className={styles.navbar}>
       <NavButton
@@ -15,8 +15,12 @@ const Navbar = ({ handleClick }) => {
         title="Mina Projekt"
         icon={<MinaProjektIcon />}
       />
-      <NavButton handleClick={handleClick} title="Mönster" icon={<PatternsIcon />} />
-      <PlusButton handleClick={handleClick} />
+      <NavButton
+        handleClick={handleClick}
+        title="Mönster"
+        icon={<PatternsIcon />}
+      />
+      <PlusButton handleClick={handlePlusClick} />
       <NavButton
         handleClick={handleClick}
         title="Community"
