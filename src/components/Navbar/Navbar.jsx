@@ -20,7 +20,7 @@ const Navbar = ({ handleClick, handlePlusClick }) => {
         title="Mönster"
         icon={<PatternsIcon />}
       />
-      <PlusButton handleClick={handlePlusClick} />
+      <PlusButton handlePlusClick={handlePlusClick} />
       <NavButton
         handleClick={handleClick}
         title="Community"
