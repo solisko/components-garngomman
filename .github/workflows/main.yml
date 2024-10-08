@@ -38,4 +38,9 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           
+      - name: discord
+        uses: sebastianpopp/discord-action@releases/v2
+        with: 
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          message: ${{ github.actor }} has successfylly published new pkg version.
 
