@@ -3,9 +3,9 @@ import styles from "./Navbar.module.css";
 import PlusButton from "./PlusButton";
 import NavButton from "./NavButton";
 import MinaProjektIcon from "./MinaProjektIcon";
-import InspoIcon from "./InspoIcon";
 import CommunityIcon from "./CommunityIcon";
 import MinProfilIcon from "./MinProfilIcon";
+import PatternsIcon from "./PatternsIcon";
 
 const Navbar = ({ handleClick }) => {
   return (
@@ -15,7 +15,7 @@ const Navbar = ({ handleClick }) => {
         title="Mina Projekt"
         icon={<MinaProjektIcon />}
       />
-      <NavButton handleClick={handleClick} title="Inspo" icon={<InspoIcon />} />
+      <NavButton handleClick={handleClick} title="Mönster" icon={<PatternsIcon />} />
       <PlusButton handleClick={handleClick} />
       <NavButton
         handleClick={handleClick}
