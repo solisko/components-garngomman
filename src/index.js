@@ -24,6 +24,7 @@ import { NeedleList } from "./components/Stash/NeedleStash";
 import { AccesoryList } from "./components/Stash/AccessoryStash";
 import { Projekt } from "./components/Projekt";
 import { Login } from "./components/Login";
+import { Tabs } from "./components/Stash/";
 
 export {
   Header,
@@ -52,4 +53,5 @@ export {
   AccesoryList,
   Projekt,
   Login,
+  Tabs,
 };

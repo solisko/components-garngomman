@@ -2,7 +2,7 @@ import React from "react";
 import Bgarn from "../../Assets/Bgarn.png";
 import styles from "./Stash.module.css";
 
-const StashList = ({ stashList = [] }) => {
+const StashList = ({ stashList = [], listWrapperClassName }) => {
   const renderItemDetails = (item) => {
     switch (item.category) {
       case "yarn":
