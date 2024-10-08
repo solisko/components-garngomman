@@ -1,7 +1,7 @@
 {
   "name": "@solisko/components-garngomman",
   "private": false,
-  "version": "0.0.21",
+  "version": "0.0.22",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -70,6 +70,7 @@
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "@solisko/components-garngomman": "^0.0.11",
-    "@storybook/addon-measure": "^8.3.4"
+    "@storybook/addon-measure": "^8.3.4",
+    "react-router-dom": "^6.26.2"
   }
 }

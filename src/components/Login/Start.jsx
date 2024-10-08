@@ -4,12 +4,17 @@ import LoginBtnEmail from "./LoginBtnEmail";
 import LoginBtnGoogle from "./LoginBtnGoogle";
 import LoginBtnApple from "./LoginBtnApple";
 import styles from './Login.module.css';
+import { useNavigate } from "react-router-dom";
 
 const Start = () => {
+    const handleClick = () => {
+        const navigate = useNavigate()
+            navigate = ('/EmailLoginPage');
+    }
     return(
         <div className={styles.startContainer}>
             <Logo1 />
-            <LoginBtnEmail />
+            <LoginBtnEmail onClick = { handleClick }/>
             <LoginBtnApple />
             <LoginBtnGoogle />
         </div>
