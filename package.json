@@ -69,13 +69,8 @@
   ],
   "dependencies": {
     "@heroicons/react": "^2.1.5",
-<<<<<<< HEAD
-    "@solisko/components-garngomman": "0.0.13",
-    "@storybook/addon-measure": "^8.3.4"
-=======
     "@solisko/components-garngomman": "^0.0.11",
     "@storybook/addon-measure": "^8.3.4",
     "react-router-dom": "^6.26.2"
->>>>>>> 3de1e6417edc1b448525af19c14e94a6b34d5116
   }
 }
