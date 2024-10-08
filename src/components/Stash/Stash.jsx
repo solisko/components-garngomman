@@ -6,12 +6,10 @@ import StashBtn from "./StashBtn";
 const Stash = ({ newProjectBtnclassName, stashContainerclassName }) => {
   return (
     <div className={`${styles.stashContainer} ${stashContainerclassName}`}>
-      <div className={styles.stashHead}>
-        <StashSearch />
-        <StashBtn
-          className={`${styles.newProjectBtn} ${newProjectBtnclassName}`}
-        />
-      </div>
+      <StashSearch />
+      <StashBtn
+        className={`${styles.newProjectBtn} ${newProjectBtnclassName}`}
+      />
     </div>
   );
 };
