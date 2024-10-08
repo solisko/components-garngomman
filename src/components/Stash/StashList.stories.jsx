@@ -9,7 +9,9 @@ export default {
   component: StashList,
 };
 
-export const Default = () => (
+export const Default = () => <StashList />;
+
+export const StashListWithMock = () => (
   <StashList stashList={[...yarnData, ...needleData, ...accesoryData]} />
 );
 
