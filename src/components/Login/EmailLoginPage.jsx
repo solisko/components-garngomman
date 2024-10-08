@@ -2,14 +2,17 @@ import React from "react";
 import NextButton from "./NextButton";
 import EmailInput from "./EmailInput";
 import styles from './Login.module.css';
-import HeaderLogo2 from "../Header/HeaderLogo2";
+import { useNavigate } from 'react-router-dom';
 
 const EmailLoginPage = () => {
+    const handleClick = () => {
+        const navigate = useNavigate()
+            navigate('/EmailPasswordPage');
+    }
     return(
         <div className="emailLoginContainer">
-            <HeaderLogo2 />
             <EmailInput />
-            <NextButton />
+            <NextButton onClick = { handleClick } />
         </div>
     )
 }

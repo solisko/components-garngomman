@@ -13,7 +13,7 @@ import { EmailPasswordPage } from "./components/Login"
 import { Navbar } from "./components/Navbar"
 import { Profil } from "./components/Profil"
 import { Membership } from "./components/Profil/Membership";
-import { accountSettings } from "./components/Profil/accountSettings";
+import { AccountSettings } from "./components/Profil/accountSettings";
 import { PersonSettings } from "./components/Profil/personSettings";
 import { Support } from "./components/Profil/Support";
 import { Gdpr } from "./components/Profil/Gdpr"
@@ -21,8 +21,9 @@ import { Preferences } from "./components/Profil/Preferences";
 import { StashList } from "./components/Stash"
 import { YarnList } from "./components/Stash/YarnStash";
 import { NeedleList } from "./components/Stash/NeedleStash";
-import { AccessoryList } from "./components/Stash/AccessoryStash";
+import { AccesoryList } from "./components/Stash/AccessoryStash";
 import { Projekt } from "./components/Projekt";
+import { Login } from "./components/Login";
 
 export {
   Header,
@@ -40,7 +41,7 @@ export {
   Navbar,
   Profil,
   Membership,
-  accountSettings,
+  AccountSettings,
   PersonSettings,
   Support,
   Gdpr,
@@ -48,6 +49,7 @@ export {
   StashList,
   YarnList,
   NeedleList,
-  AccessoryList,
+  AccesoryList,
   Projekt,
+  Login,
 };

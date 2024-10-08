@@ -1,3 +1,3 @@
-import AccessoryList from "./AccesoryList";
+import AccesoryList from "./AccesoryList";
 
-export { AccessoryList };
+export { AccesoryList };

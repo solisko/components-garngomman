@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Stash.module.css";
 
-const StashTab = ({ title, className }) => {
+const StashTab = ({ title, className, handleClick }) => {
   return (
     <div>
-      <button className={`${styles.tabBtn} ${className}`}>{title}</button>
+      <button onClick={handleClick} className={`${styles.tabBtn} ${className}`}>{title}</button>
     </div>
   );
 };

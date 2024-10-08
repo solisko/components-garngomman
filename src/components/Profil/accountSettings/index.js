@@ -1,3 +1,3 @@
-import accountSettings from "./accountSettings";
+import AccountSettings from "./AccountSettings";
 
-export { accountSettings };
+export { AccountSettings };

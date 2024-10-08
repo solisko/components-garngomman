@@ -18,6 +18,8 @@
   color: #333;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  
 }
 
 .navItem .navIcon {
