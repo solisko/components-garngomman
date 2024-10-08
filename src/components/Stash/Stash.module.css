@@ -13,9 +13,6 @@
 .stashContainer{
     /* background-color: #d3d3d3; */
     max-width: 450px;
-}
-
-.stashHead {
     display: flex;
     justify-content: space-between;
 }
