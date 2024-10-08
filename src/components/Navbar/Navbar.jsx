@@ -5,7 +5,7 @@ import NavButton from "./NavButton";
 import MinaProjektIcon from "./MinaProjektIcon";
 import CommunityIcon from "./CommunityIcon";
 import MinProfilIcon from "./MinProfilIcon";
-import PatternsIcon from "./PatternsIcon";
+import StashIcon from "./StashIcon";
 
 const Navbar = ({ handleClick }) => {
   return (
@@ -15,7 +15,7 @@ const Navbar = ({ handleClick }) => {
         title="Mina Projekt"
         icon={<MinaProjektIcon />}
       />
-      <NavButton handleClick={handleClick} title="Mönster" icon={<PatternsIcon />} />
+      <NavButton handleClick={handleClick} title="Stash" icon={<StashIcon />} />
       <PlusButton handleClick={handleClick} />
       <NavButton
         handleClick={handleClick}
