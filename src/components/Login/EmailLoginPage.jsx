@@ -1,20 +1,16 @@
 import React from "react";
 import NextButton from "./NextButton";
 import EmailInput from "./EmailInput";
-import styles from './Login.module.css';
-import { useNavigate } from 'react-router-dom';
+import styles from "./Login.module.css";
 
-const EmailLoginPage = () => {
-    const handleClick = () => {
-        const navigate = useNavigate()
-            navigate('/EmailPasswordPage');
-    }
-    return(
-        <div className="emailLoginContainer">
-            <EmailInput />
-            <NextButton onClick = { handleClick } />
-        </div>
-    )
-}
+const EmailLoginPage = ({handleClick}) => {
+ 
+  return (
+    <div className="emailLoginContainer">
+      <EmailInput />
+      <NextButton handleClick={handleClick} />
+    </div>
+  );
+};
 
 export default EmailLoginPage;
