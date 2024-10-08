@@ -13,31 +13,30 @@ const Stash = ({
   newProjectBtnclassName,
   stashContainerclassName,
   tabBtnContainerclassName,
-  handleClick
+  handleClick,
 }) => {
-
   return (
     <div>
       <div className={`${styles.tabBtnContainer} ${tabBtnContainerclassName}`}>
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title1}
-          handleClick={{handleClick}}
-          />
+          handleClick={() => handleClick(title1)}
+        />
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title2}
-          handleClick={{handleClick}}
-          />
+          handleClick={() => handleClick(title2)}
+        />
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title3}
-          handleClick={{handleClick}}
-          />
+          handleClick={() => handleClick(title3)}
+        />
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title4}
-          handleClick={{handleClick}}
+          handleClick={() => handleClick(title4)}
         />
       </div>
       <div className={`${styles.stashContainer} ${stashContainerclassName}`}>
