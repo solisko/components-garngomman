@@ -2,10 +2,6 @@ import React from "react";
 import styles from "./Stash.module.css";
 import StashSearch from "./StashSearch";
 import StashBtn from "./StashBtn";
-// import StashList from "./StashList";
-// import yarnData from "./yarndata.json";
-// import needleData from "./needleData.json";
-// import accesoryData from "./accesoryData.json";
 import StashTab from "./StashTab";
 
 const Stash = ({
@@ -17,8 +13,8 @@ const Stash = ({
   newProjectBtnclassName,
   stashContainerclassName,
   tabBtnContainerclassName,
+  handleClick
 }) => {
-  // const stashList = [...yarnData, ...needleData, ...accesoryData];
 
   return (
     <div>
@@ -26,18 +22,22 @@ const Stash = ({
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title1}
-        />
+          handleClick={{handleClick}}
+          />
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title2}
-        />
+          handleClick={{handleClick}}
+          />
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title3}
-        />
+          handleClick={{handleClick}}
+          />
         <StashTab
           className={`${styles.tabBtn} ${btnClassName}`}
           title={title4}
+          handleClick={{handleClick}}
         />
       </div>
       <div className={`${styles.stashContainer} ${stashContainerclassName}`}>
@@ -47,7 +47,6 @@ const Stash = ({
             className={`${styles.newProjectBtn} ${newProjectBtnclassName}`}
           />
         </div>
-        {/* <StashList stashList={stashList} /> */}
       </div>
     </div>
   );

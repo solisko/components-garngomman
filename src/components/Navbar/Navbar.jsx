@@ -15,10 +15,18 @@ const Navbar = ({ handleClick }) => {
         title="Mina Projekt"
         icon={<MinaProjektIcon />}
       />
-      <NavButton title="Inspo" icon={<InspoIcon />} />
-      <PlusButton />
-      <NavButton title="Community" icon={<CommunityIcon />} />
-      <NavButton title="Min Profil" icon={<MinProfilIcon />} />
+      <NavButton handleClick={handleClick} title="Inspo" icon={<InspoIcon />} />
+      <PlusButton handleClick={handleClick} />
+      <NavButton
+        handleClick={handleClick}
+        title="Community"
+        icon={<CommunityIcon />}
+      />
+      <NavButton
+        handleClick={handleClick}
+        title="Min Profil"
+        icon={<MinProfilIcon />}
+      />
     </div>
   );
 };
